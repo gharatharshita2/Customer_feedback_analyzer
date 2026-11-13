@@ -4,7 +4,7 @@ An AI-powered web application that helps businesses analyse customer reviews and
 
 The application uses Machine Learning and Large Language Models (LLMs) to turn customer feedback into useful insights through an interactive dashboard.
 
-**Live Demo:** [Try the Application]([[YOUR_STREAMLIT_APP_UR](https://customerfeedbackanalyzer-ai.streamlit.app/)])
+**Live Demo:** [Try the Application]([https://customerfeedbackanalyzer-ai.streamlit.app/])
 
 ## Features
 
