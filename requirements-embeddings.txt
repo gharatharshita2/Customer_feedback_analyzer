@@ -1,0 +1,2 @@
+-r requirements.txt
+# The hosted project already includes MiniLM support in requirements.txt.

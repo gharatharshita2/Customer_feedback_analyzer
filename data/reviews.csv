@@ -1,0 +1,721 @@
+id,date,text,topic,sentiment
+R00001,2026-10-01,My order arrived delayed again and the tracking updates were incorrect. Order reference 1000. This seems unsafe and could cause injury.,Delivery,negative
+R00002,2026-10-02,The item incorrect after two days; quality is disappointing. Customer note 0.,Product Quality,negative
+R00003,2026-10-03,Is there a student discount available? Customer note 0.,Pricing,neutral
+R00004,2026-10-04,The refund was without delay and handled professionally. Customer note 0.,Refunds,positive
+R00005,2026-10-05,Customer support was smooth and resolved everything. Order reference 1001.,Customer Support,positive
+R00006,2026-10-06,The package arrived broken and the box was damaged. Customer note 1.,Packaging,negative
+R00007,2026-10-07,The app is terrible and checkout keeps freezing. Customer note 1.,Website/App,negative
+R00008,2026-10-08,My payment was incorrect and I was charged twice. Customer note 1.,Payments,negative
+R00009,2026-10-09,What is the return window? Order reference 1002.,Returns,neutral
+R00010,2026-10-10,The loyalty program is smooth and rewarding. Customer note 1.,Other,positive
+R00011,2026-10-11,Delivery arrived quickly and tracking was helpful. Customer note 2.,Delivery,positive
+R00012,2026-10-12,The item unreliable after a month; quality is disappointing. Customer note 2.,Product Quality,negative
+R00013,2026-10-13,The price was unreliable compared with the advertised offer. Order reference 1004.,Pricing,negative
+R00014,2026-10-14,My refund is delayed again and support has not explained why. Customer note 2.,Refunds,negative
+R00015,2026-10-15,What hours is customer service available? Customer note 2.,Customer Support,neutral
+R00016,2026-10-16,Packaging was fantastic and protected the item. Customer note 3.,Packaging,positive
+R00017,2026-10-17,The website is helpful and easy to navigate. Order reference 1005.,Website/App,positive
+R00018,2026-10-18,My payment was unreliable and I was charged twice. Customer note 3.,Payments,negative
+R00019,2026-10-19,The return process was incorrect and the label never arrived. Customer note 3.,Returns,negative
+R00020,2026-10-20,The loyalty points were incorrect and disappeared from my account. Customer note 3.,Other,negative
+R00021,2026-10-21,Can you tell me when the package is expected? Order reference 1006.,Delivery,neutral
+R00022,2026-10-22,The product feels fantastic and works perfectly. Customer note 4.,Product Quality,positive
+R00023,2026-10-23,"Great value, the price was excellent. Customer note 4.",Pricing,positive
+R00024,2026-10-24,My refund is a week late and support has not explained why. Customer note 4.,Refunds,negative
+R00025,2026-10-25,The support agent was unreliable and did not solve my problem. Order reference 1008.,Customer Support,negative
+R00026,2026-10-26,The package arrived unreliable and the box was damaged. Customer note 5.,Packaging,negative
+R00027,2026-10-27,Does the app support dark mode? Customer note 5.,Website/App,neutral
+R00028,2026-10-28,Payment was quickly and confirmation came immediately. Customer note 5.,Payments,positive
+R00029,2026-10-01,Returns were excellent and straightforward. Order reference 1009.,Returns,positive
+R00030,2026-10-02,The loyalty points were unreliable and disappeared from my account. Customer note 5.,Other,negative
+R00031,2026-10-03,My order arrived delayed again and the tracking updates were confusing. Customer note 6.,Delivery,negative
+R00032,2026-10-04,The item incorrect after a month; quality is disappointing. Customer note 6.,Product Quality,negative
+R00033,2026-10-05,Is there a student discount available? Order reference 1010.,Pricing,neutral
+R00034,2026-10-06,The refund was without delay and handled professionally. Customer note 6.,Refunds,positive
+R00035,2026-10-07,Customer support was excellent and resolved everything. Customer note 6.,Customer Support,positive
+R00036,2026-10-08,The package arrived terrible and the box was damaged. Customer note 7.,Packaging,negative
+R00037,2026-10-09,The app is incorrect and checkout keeps freezing. Order reference 1012.,Website/App,negative
+R00038,2026-10-10,My payment was broken and I was charged twice. Customer note 7.,Payments,negative
+R00039,2026-10-11,What is the return window? Customer note 7.,Returns,neutral
+R00040,2026-10-12,The loyalty program is excellent and rewarding. Customer note 7.,Other,positive
+R00041,2026-10-13,Delivery arrived on time and tracking was smooth. Order reference 1013.,Delivery,positive
+R00042,2026-10-14,The item unreliable after one week; quality is disappointing. Customer note 8.,Product Quality,negative
+R00043,2026-10-15,The price was broken compared with the advertised offer. Customer note 8.,Pricing,negative
+R00044,2026-10-16,My refund is delayed again and support has not explained why. Customer note 8.,Refunds,negative
+R00045,2026-10-17,What hours is customer service available? Order reference 1014.,Customer Support,neutral
+R00046,2026-10-18,Packaging was fantastic and protected the item. Customer note 9.,Packaging,positive
+R00047,2026-10-19,The website is fantastic and easy to navigate. Customer note 9.,Website/App,positive
+R00048,2026-10-20,My payment was terrible and I was charged twice. Customer note 9.,Payments,negative
+R00049,2026-10-21,The return process was broken and the label never arrived. Order reference 1016.,Returns,negative
+R00050,2026-10-22,The loyalty points were unreliable and disappeared from my account. Customer note 9.,Other,negative
+R00051,2026-10-23,Can you tell me when the package is expected? Customer note 10.,Delivery,neutral
+R00052,2026-10-24,The product feels helpful and works perfectly. Customer note 10.,Product Quality,positive
+R00053,2026-10-25,"Great value, the price was smooth. Order reference 1017.",Pricing,positive
+R00054,2026-10-26,My refund is three days late and support has not explained why. Customer note 10.,Refunds,negative
+R00055,2026-10-27,The support agent was broken and did not solve my problem. Customer note 10.,Customer Support,negative
+R00056,2026-10-28,The package arrived terrible and the box was damaged. Customer note 11.,Packaging,negative
+R00057,2026-10-01,Does the app support dark mode? Order reference 1018.,Website/App,neutral
+R00058,2026-10-02,Payment was without delay and confirmation came immediately. Customer note 11.,Payments,positive
+R00059,2026-10-03,Returns were excellent and straightforward. Customer note 11.,Returns,positive
+R00060,2026-10-04,The loyalty points were unreliable and disappeared from my account. Customer note 11.,Other,negative
+R00061,2026-10-05,My order arrived a week late and the tracking updates were incorrect. Order reference 1020.,Delivery,negative
+R00062,2026-10-06,The item terrible after two days; quality is disappointing. Customer note 12.,Product Quality,negative
+R00063,2026-10-07,Is there a student discount available? Customer note 12.,Pricing,neutral
+R00064,2026-10-08,The refund was without delay and handled professionally. Customer note 12.,Refunds,positive
+R00065,2026-10-09,Customer support was excellent and resolved everything. Order reference 1021.,Customer Support,positive
+R00066,2026-10-10,The package arrived broken and the box was damaged. Customer note 13.,Packaging,negative
+R00067,2026-10-11,The app is unreliable and checkout keeps freezing. Customer note 13.,Website/App,negative
+R00068,2026-10-12,My payment was unreliable and I was charged twice. Customer note 13.,Payments,negative
+R00069,2026-10-13,What is the return window? Order reference 1022.,Returns,neutral
+R00070,2026-10-14,The loyalty program is smooth and rewarding. Customer note 13.,Other,positive
+R00071,2026-10-15,Delivery arrived quickly and tracking was excellent. Customer note 14.,Delivery,positive
+R00072,2026-10-16,The item unreliable after two days; quality is disappointing. Customer note 14.,Product Quality,negative
+R00073,2026-10-17,The price was terrible compared with the advertised offer. Order reference 1024.,Pricing,negative
+R00074,2026-10-18,My refund is three days late and support has not explained why. Customer note 14.,Refunds,negative
+R00075,2026-10-19,What hours is customer service available? Customer note 14.,Customer Support,neutral
+R00076,2026-10-20,Packaging was helpful and protected the item. Customer note 15.,Packaging,positive
+R00077,2026-10-21,The website is smooth and easy to navigate. Order reference 1025.,Website/App,positive
+R00078,2026-10-22,My payment was terrible and I was charged twice. Customer note 15.,Payments,negative
+R00079,2026-10-23,The return process was broken and the label never arrived. Customer note 15.,Returns,negative
+R00080,2026-10-24,The loyalty points were terrible and disappeared from my account. Customer note 15.,Other,negative
+R00081,2026-10-25,Can you tell me when the package is expected? Order reference 1026.,Delivery,neutral
+R00082,2026-10-26,The product feels smooth and works perfectly. Customer note 16.,Product Quality,positive
+R00083,2026-10-27,"Great value, the price was helpful. Customer note 16.",Pricing,positive
+R00084,2026-10-28,My refund is delayed again and support has not explained why. Customer note 16.,Refunds,negative
+R00085,2026-10-01,The support agent was unreliable and did not solve my problem. Order reference 1028.,Customer Support,negative
+R00086,2026-10-02,The package arrived broken and the box was damaged. Customer note 17.,Packaging,negative
+R00087,2026-10-03,Does the app support dark mode? Customer note 17.,Website/App,neutral
+R00088,2026-10-04,Payment was quickly and confirmation came immediately. Customer note 17.,Payments,positive
+R00089,2026-10-05,Returns were fantastic and straightforward. Order reference 1029.,Returns,positive
+R00090,2026-10-06,The loyalty points were broken and disappeared from my account. Customer note 17.,Other,negative
+R00091,2026-10-07,My order arrived three days late and the tracking updates were incorrect. Customer note 18.,Delivery,negative
+R00092,2026-10-08,The item incorrect after a month; quality is disappointing. Customer note 18.,Product Quality,negative
+R00093,2026-10-09,Is there a student discount available? Order reference 1030.,Pricing,neutral
+R00094,2026-10-10,The refund was quickly and handled professionally. Customer note 18.,Refunds,positive
+R00095,2026-10-11,Customer support was smooth and resolved everything. Customer note 18.,Customer Support,positive
+R00096,2026-10-12,The package arrived incorrect and the box was damaged. Customer note 19.,Packaging,negative
+R00097,2026-10-13,The app is terrible and checkout keeps freezing. Order reference 1032.,Website/App,negative
+R00098,2026-10-14,My payment was unreliable and I was charged twice. Customer note 19. This seems unsafe and could cause injury.,Payments,negative
+R00099,2026-10-15,What is the return window? Customer note 19.,Returns,neutral
+R00100,2026-10-16,The loyalty program is fantastic and rewarding. Customer note 19.,Other,positive
+R00101,2026-10-17,Delivery arrived quickly and tracking was excellent. Order reference 1033.,Delivery,positive
+R00102,2026-10-18,The item incorrect after a month; quality is disappointing. Customer note 20.,Product Quality,negative
+R00103,2026-10-19,The price was incorrect compared with the advertised offer. Customer note 20.,Pricing,negative
+R00104,2026-10-20,My refund is a week late and support has not explained why. Customer note 20.,Refunds,negative
+R00105,2026-10-21,What hours is customer service available? Order reference 1034.,Customer Support,neutral
+R00106,2026-10-22,Packaging was fantastic and protected the item. Customer note 21.,Packaging,positive
+R00107,2026-10-23,The website is fantastic and easy to navigate. Customer note 21.,Website/App,positive
+R00108,2026-10-24,My payment was incorrect and I was charged twice. Customer note 21.,Payments,negative
+R00109,2026-10-25,The return process was terrible and the label never arrived. Order reference 1036.,Returns,negative
+R00110,2026-10-26,The loyalty points were terrible and disappeared from my account. Customer note 21.,Other,negative
+R00111,2026-10-27,Can you tell me when the package is expected? Customer note 22.,Delivery,neutral
+R00112,2026-10-28,The product feels smooth and works perfectly. Customer note 22.,Product Quality,positive
+R00113,2026-10-01,"Great value, the price was smooth. Order reference 1037.",Pricing,positive
+R00114,2026-10-02,My refund is a week late and support has not explained why. Customer note 22.,Refunds,negative
+R00115,2026-10-03,The support agent was incorrect and did not solve my problem. Customer note 22.,Customer Support,negative
+R00116,2026-10-04,The package arrived broken and the box was damaged. Customer note 23.,Packaging,negative
+R00117,2026-10-05,Does the app support dark mode? Order reference 1038.,Website/App,neutral
+R00118,2026-10-06,Payment was without delay and confirmation came immediately. Customer note 23.,Payments,positive
+R00119,2026-10-07,Returns were fantastic and straightforward. Customer note 23.,Returns,positive
+R00120,2026-10-08,The loyalty points were unreliable and disappeared from my account. Customer note 23.,Other,negative
+R00121,2026-10-09,My order arrived three days late and the tracking updates were confusing. Order reference 1040.,Delivery,negative
+R00122,2026-10-10,The item terrible after two days; quality is disappointing. Customer note 24.,Product Quality,negative
+R00123,2026-10-11,Is there a student discount available? Customer note 24.,Pricing,neutral
+R00124,2026-10-12,The refund was quickly and handled professionally. Customer note 24.,Refunds,positive
+R00125,2026-10-13,Customer support was smooth and resolved everything. Order reference 1041.,Customer Support,positive
+R00126,2026-10-14,The package arrived broken and the box was damaged. Customer note 25.,Packaging,negative
+R00127,2026-10-15,The app is incorrect and checkout keeps freezing. Customer note 25.,Website/App,negative
+R00128,2026-10-16,My payment was incorrect and I was charged twice. Customer note 25.,Payments,negative
+R00129,2026-10-17,What is the return window? Order reference 1042.,Returns,neutral
+R00130,2026-10-18,The loyalty program is fantastic and rewarding. Customer note 25.,Other,positive
+R00131,2026-10-19,Delivery arrived quickly and tracking was helpful. Customer note 26.,Delivery,positive
+R00132,2026-10-20,The item unreliable after one week; quality is disappointing. Customer note 26.,Product Quality,negative
+R00133,2026-10-21,The price was unreliable compared with the advertised offer. Order reference 1044.,Pricing,negative
+R00134,2026-10-22,My refund is delayed again and support has not explained why. Customer note 26.,Refunds,negative
+R00135,2026-10-23,What hours is customer service available? Customer note 26.,Customer Support,neutral
+R00136,2026-10-24,Packaging was helpful and protected the item. Customer note 27.,Packaging,positive
+R00137,2026-10-25,The website is smooth and easy to navigate. Order reference 1045.,Website/App,positive
+R00138,2026-10-26,My payment was incorrect and I was charged twice. Customer note 27.,Payments,negative
+R00139,2026-10-27,The return process was incorrect and the label never arrived. Customer note 27.,Returns,negative
+R00140,2026-10-28,The loyalty points were broken and disappeared from my account. Customer note 27.,Other,negative
+R00141,2026-10-01,Can you tell me when the package is expected? Order reference 1046.,Delivery,neutral
+R00142,2026-10-02,The product feels smooth and works perfectly. Customer note 28.,Product Quality,positive
+R00143,2026-10-03,"Great value, the price was fantastic. Customer note 28.",Pricing,positive
+R00144,2026-10-04,My refund is delayed again and support has not explained why. Customer note 28.,Refunds,negative
+R00145,2026-10-05,The support agent was unreliable and did not solve my problem. Order reference 1048.,Customer Support,negative
+R00146,2026-10-06,The package arrived broken and the box was damaged. Customer note 29.,Packaging,negative
+R00147,2026-10-07,Does the app support dark mode? Customer note 29.,Website/App,neutral
+R00148,2026-10-08,Payment was without delay and confirmation came immediately. Customer note 29.,Payments,positive
+R00149,2026-10-09,Returns were smooth and straightforward. Order reference 1049.,Returns,positive
+R00150,2026-10-10,The loyalty points were terrible and disappeared from my account. Customer note 29.,Other,negative
+R00151,2026-10-11,My order arrived three days late and the tracking updates were incorrect. Customer note 30.,Delivery,negative
+R00152,2026-10-12,The item incorrect after one week; quality is disappointing. Customer note 30.,Product Quality,negative
+R00153,2026-10-13,Is there a student discount available? Order reference 1050.,Pricing,neutral
+R00154,2026-10-14,The refund was without delay and handled professionally. Customer note 30.,Refunds,positive
+R00155,2026-10-15,Customer support was excellent and resolved everything. Customer note 30.,Customer Support,positive
+R00156,2026-10-16,The package arrived terrible and the box was damaged. Customer note 31.,Packaging,negative
+R00157,2026-10-17,The app is broken and checkout keeps freezing. Order reference 1052.,Website/App,negative
+R00158,2026-10-18,My payment was broken and I was charged twice. Customer note 31.,Payments,negative
+R00159,2026-10-19,What is the return window? Customer note 31.,Returns,neutral
+R00160,2026-10-20,The loyalty program is fantastic and rewarding. Customer note 31.,Other,positive
+R00161,2026-10-21,Delivery arrived on time and tracking was fantastic. Order reference 1053.,Delivery,positive
+R00162,2026-10-22,The item unreliable after a month; quality is disappointing. Customer note 32.,Product Quality,negative
+R00163,2026-10-23,The price was broken compared with the advertised offer. Customer note 32.,Pricing,negative
+R00164,2026-10-24,My refund is a week late and support has not explained why. Customer note 32.,Refunds,negative
+R00165,2026-10-25,What hours is customer service available? Order reference 1054.,Customer Support,neutral
+R00166,2026-10-26,Packaging was fantastic and protected the item. Customer note 33.,Packaging,positive
+R00167,2026-10-27,The website is smooth and easy to navigate. Customer note 33.,Website/App,positive
+R00168,2026-10-28,My payment was incorrect and I was charged twice. Customer note 33.,Payments,negative
+R00169,2026-10-01,The return process was incorrect and the label never arrived. Order reference 1056.,Returns,negative
+R00170,2026-10-02,The loyalty points were broken and disappeared from my account. Customer note 33.,Other,negative
+R00171,2026-10-03,Can you tell me when the package is expected? Customer note 34.,Delivery,neutral
+R00172,2026-10-04,The product feels fantastic and works perfectly. Customer note 34.,Product Quality,positive
+R00173,2026-10-05,"Great value, the price was helpful. Order reference 1057.",Pricing,positive
+R00174,2026-10-06,My refund is a week late and support has not explained why. Customer note 34.,Refunds,negative
+R00175,2026-10-07,The support agent was incorrect and did not solve my problem. Customer note 34.,Customer Support,negative
+R00176,2026-10-08,The package arrived broken and the box was damaged. Customer note 35.,Packaging,negative
+R00177,2026-10-09,Does the app support dark mode? Order reference 1058.,Website/App,neutral
+R00178,2026-10-10,Payment was on time and confirmation came immediately. Customer note 35.,Payments,positive
+R00179,2026-10-11,Returns were helpful and straightforward. Customer note 35.,Returns,positive
+R00180,2026-10-12,The loyalty points were terrible and disappeared from my account. Customer note 35.,Other,negative
+R00181,2026-10-13,My order arrived delayed again and the tracking updates were missing. Order reference 1060.,Delivery,negative
+R00182,2026-10-14,The item unreliable after a month; quality is disappointing. Customer note 36.,Product Quality,negative
+R00183,2026-10-15,Is there a student discount available? Customer note 36.,Pricing,neutral
+R00184,2026-10-16,The refund was on time and handled professionally. Customer note 36.,Refunds,positive
+R00185,2026-10-17,Customer support was fantastic and resolved everything. Order reference 1061.,Customer Support,positive
+R00186,2026-10-18,The package arrived unreliable and the box was damaged. Customer note 37.,Packaging,negative
+R00187,2026-10-19,The app is incorrect and checkout keeps freezing. Customer note 37.,Website/App,negative
+R00188,2026-10-20,My payment was incorrect and I was charged twice. Customer note 37.,Payments,negative
+R00189,2026-10-21,What is the return window? Order reference 1062.,Returns,neutral
+R00190,2026-10-22,The loyalty program is helpful and rewarding. Customer note 37.,Other,positive
+R00191,2026-10-23,Delivery arrived quickly and tracking was smooth. Customer note 38.,Delivery,positive
+R00192,2026-10-24,The item terrible after a month; quality is disappointing. Customer note 38.,Product Quality,negative
+R00193,2026-10-25,The price was terrible compared with the advertised offer. Order reference 1064.,Pricing,negative
+R00194,2026-10-26,My refund is delayed again and support has not explained why. Customer note 38.,Refunds,negative
+R00195,2026-10-27,What hours is customer service available? Customer note 38. This seems unsafe and could cause injury.,Customer Support,neutral
+R00196,2026-10-28,Packaging was smooth and protected the item. Customer note 39.,Packaging,positive
+R00197,2026-10-01,The website is fantastic and easy to navigate. Order reference 1065.,Website/App,positive
+R00198,2026-10-02,My payment was terrible and I was charged twice. Customer note 39.,Payments,negative
+R00199,2026-10-03,The return process was unreliable and the label never arrived. Customer note 39.,Returns,negative
+R00200,2026-10-04,The loyalty points were unreliable and disappeared from my account. Customer note 39.,Other,negative
+R00201,2026-10-05,Can you tell me when the package is expected? Order reference 1066.,Delivery,neutral
+R00202,2026-10-06,The product feels fantastic and works perfectly. Customer note 40.,Product Quality,positive
+R00203,2026-10-07,"Great value, the price was excellent. Customer note 40.",Pricing,positive
+R00204,2026-10-08,My refund is delayed again and support has not explained why. Customer note 40.,Refunds,negative
+R00205,2026-10-09,The support agent was incorrect and did not solve my problem. Order reference 1068.,Customer Support,negative
+R00206,2026-10-10,The package arrived broken and the box was damaged. Customer note 41.,Packaging,negative
+R00207,2026-10-11,Does the app support dark mode? Customer note 41.,Website/App,neutral
+R00208,2026-10-12,Payment was quickly and confirmation came immediately. Customer note 41.,Payments,positive
+R00209,2026-10-13,Returns were fantastic and straightforward. Order reference 1069.,Returns,positive
+R00210,2026-10-14,The loyalty points were unreliable and disappeared from my account. Customer note 41.,Other,negative
+R00211,2026-10-15,My order arrived delayed again and the tracking updates were incorrect. Customer note 42.,Delivery,negative
+R00212,2026-10-16,The item incorrect after two days; quality is disappointing. Customer note 42.,Product Quality,negative
+R00213,2026-10-17,Is there a student discount available? Order reference 1070.,Pricing,neutral
+R00214,2026-10-18,The refund was on time and handled professionally. Customer note 42.,Refunds,positive
+R00215,2026-10-19,Customer support was excellent and resolved everything. Customer note 42.,Customer Support,positive
+R00216,2026-10-20,The package arrived broken and the box was damaged. Customer note 43.,Packaging,negative
+R00217,2026-10-21,The app is terrible and checkout keeps freezing. Order reference 1072.,Website/App,negative
+R00218,2026-10-22,My payment was unreliable and I was charged twice. Customer note 43.,Payments,negative
+R00219,2026-10-23,What is the return window? Customer note 43.,Returns,neutral
+R00220,2026-10-24,The loyalty program is helpful and rewarding. Customer note 43.,Other,positive
+R00221,2026-10-25,Delivery arrived on time and tracking was fantastic. Order reference 1073.,Delivery,positive
+R00222,2026-10-26,The item broken after one week; quality is disappointing. Customer note 44.,Product Quality,negative
+R00223,2026-10-27,The price was terrible compared with the advertised offer. Customer note 44.,Pricing,negative
+R00224,2026-10-28,My refund is delayed again and support has not explained why. Customer note 44.,Refunds,negative
+R00225,2026-10-01,What hours is customer service available? Order reference 1074.,Customer Support,neutral
+R00226,2026-10-02,Packaging was excellent and protected the item. Customer note 45.,Packaging,positive
+R00227,2026-10-03,The website is helpful and easy to navigate. Customer note 45.,Website/App,positive
+R00228,2026-10-04,My payment was broken and I was charged twice. Customer note 45.,Payments,negative
+R00229,2026-10-05,The return process was incorrect and the label never arrived. Order reference 1076.,Returns,negative
+R00230,2026-10-06,The loyalty points were incorrect and disappeared from my account. Customer note 45.,Other,negative
+R00231,2026-10-07,Can you tell me when the package is expected? Customer note 46.,Delivery,neutral
+R00232,2026-10-08,The product feels fantastic and works perfectly. Customer note 46.,Product Quality,positive
+R00233,2026-10-09,"Great value, the price was excellent. Order reference 1077.",Pricing,positive
+R00234,2026-10-10,My refund is delayed again and support has not explained why. Customer note 46.,Refunds,negative
+R00235,2026-10-11,The support agent was terrible and did not solve my problem. Customer note 46.,Customer Support,negative
+R00236,2026-10-12,The package arrived unreliable and the box was damaged. Customer note 47.,Packaging,negative
+R00237,2026-10-13,Does the app support dark mode? Order reference 1078.,Website/App,neutral
+R00238,2026-10-14,Payment was on time and confirmation came immediately. Customer note 47.,Payments,positive
+R00239,2026-10-15,Returns were excellent and straightforward. Customer note 47.,Returns,positive
+R00240,2026-10-16,The loyalty points were broken and disappeared from my account. Customer note 47.,Other,negative
+R00241,2026-10-17,My order arrived three days late and the tracking updates were confusing. Order reference 1080.,Delivery,negative
+R00242,2026-10-18,The item unreliable after one week; quality is disappointing. Customer note 48.,Product Quality,negative
+R00243,2026-10-19,Is there a student discount available? Customer note 48.,Pricing,neutral
+R00244,2026-10-20,The refund was without delay and handled professionally. Customer note 48.,Refunds,positive
+R00245,2026-10-21,Customer support was excellent and resolved everything. Order reference 1081.,Customer Support,positive
+R00246,2026-10-22,The package arrived incorrect and the box was damaged. Customer note 49.,Packaging,negative
+R00247,2026-10-23,The app is incorrect and checkout keeps freezing. Customer note 49.,Website/App,negative
+R00248,2026-10-24,My payment was terrible and I was charged twice. Customer note 49.,Payments,negative
+R00249,2026-10-25,What is the return window? Order reference 1082.,Returns,neutral
+R00250,2026-10-26,The loyalty program is helpful and rewarding. Customer note 49.,Other,positive
+R00251,2026-10-27,Delivery arrived quickly and tracking was fantastic. Customer note 50.,Delivery,positive
+R00252,2026-10-28,The item terrible after two days; quality is disappointing. Customer note 50.,Product Quality,negative
+R00253,2026-10-01,The price was broken compared with the advertised offer. Order reference 1084.,Pricing,negative
+R00254,2026-10-02,My refund is three days late and support has not explained why. Customer note 50.,Refunds,negative
+R00255,2026-10-03,What hours is customer service available? Customer note 50.,Customer Support,neutral
+R00256,2026-10-04,Packaging was fantastic and protected the item. Customer note 51.,Packaging,positive
+R00257,2026-10-05,The website is fantastic and easy to navigate. Order reference 1085.,Website/App,positive
+R00258,2026-10-06,My payment was unreliable and I was charged twice. Customer note 51.,Payments,negative
+R00259,2026-10-07,The return process was unreliable and the label never arrived. Customer note 51.,Returns,negative
+R00260,2026-10-08,The loyalty points were unreliable and disappeared from my account. Customer note 51.,Other,negative
+R00261,2026-10-09,Can you tell me when the package is expected? Order reference 1086.,Delivery,neutral
+R00262,2026-10-10,The product feels fantastic and works perfectly. Customer note 52.,Product Quality,positive
+R00263,2026-10-11,"Great value, the price was helpful. Customer note 52.",Pricing,positive
+R00264,2026-10-12,My refund is a week late and support has not explained why. Customer note 52.,Refunds,negative
+R00265,2026-10-13,The support agent was terrible and did not solve my problem. Order reference 1088.,Customer Support,negative
+R00266,2026-10-14,The package arrived terrible and the box was damaged. Customer note 53.,Packaging,negative
+R00267,2026-10-15,Does the app support dark mode? Customer note 53.,Website/App,neutral
+R00268,2026-10-16,Payment was on time and confirmation came immediately. Customer note 53.,Payments,positive
+R00269,2026-10-17,Returns were smooth and straightforward. Order reference 1089.,Returns,positive
+R00270,2026-10-18,The loyalty points were unreliable and disappeared from my account. Customer note 53.,Other,negative
+R00271,2026-10-19,My order arrived three days late and the tracking updates were confusing. Customer note 54.,Delivery,negative
+R00272,2026-10-20,The item terrible after a month; quality is disappointing. Customer note 54.,Product Quality,negative
+R00273,2026-10-21,Is there a student discount available? Order reference 1090.,Pricing,neutral
+R00274,2026-10-22,The refund was without delay and handled professionally. Customer note 54.,Refunds,positive
+R00275,2026-10-23,Customer support was smooth and resolved everything. Customer note 54.,Customer Support,positive
+R00276,2026-10-24,The package arrived terrible and the box was damaged. Customer note 55.,Packaging,negative
+R00277,2026-10-25,The app is broken and checkout keeps freezing. Order reference 1092.,Website/App,negative
+R00278,2026-10-26,My payment was unreliable and I was charged twice. Customer note 55.,Payments,negative
+R00279,2026-10-27,What is the return window? Customer note 55.,Returns,neutral
+R00280,2026-10-28,The loyalty program is helpful and rewarding. Customer note 55.,Other,positive
+R00281,2026-10-01,Delivery arrived on time and tracking was smooth. Order reference 1093.,Delivery,positive
+R00282,2026-10-02,The item terrible after a month; quality is disappointing. Customer note 56.,Product Quality,negative
+R00283,2026-10-03,The price was unreliable compared with the advertised offer. Customer note 56.,Pricing,negative
+R00284,2026-10-04,My refund is delayed again and support has not explained why. Customer note 56.,Refunds,negative
+R00285,2026-10-05,What hours is customer service available? Order reference 1094.,Customer Support,neutral
+R00286,2026-10-06,Packaging was smooth and protected the item. Customer note 57.,Packaging,positive
+R00287,2026-10-07,The website is fantastic and easy to navigate. Customer note 57.,Website/App,positive
+R00288,2026-10-08,My payment was unreliable and I was charged twice. Customer note 57.,Payments,negative
+R00289,2026-10-09,The return process was incorrect and the label never arrived. Order reference 1096.,Returns,negative
+R00290,2026-10-10,The loyalty points were terrible and disappeared from my account. Customer note 57.,Other,negative
+R00291,2026-10-11,Can you tell me when the package is expected? Customer note 58.,Delivery,neutral
+R00292,2026-10-12,The product feels excellent and works perfectly. Customer note 58. This seems unsafe and could cause injury.,Product Quality,positive
+R00293,2026-10-13,"Great value, the price was smooth. Order reference 1097.",Pricing,positive
+R00294,2026-10-14,My refund is a week late and support has not explained why. Customer note 58.,Refunds,negative
+R00295,2026-10-15,The support agent was broken and did not solve my problem. Customer note 58.,Customer Support,negative
+R00296,2026-10-16,The package arrived incorrect and the box was damaged. Customer note 59.,Packaging,negative
+R00297,2026-10-17,Does the app support dark mode? Order reference 1098.,Website/App,neutral
+R00298,2026-10-18,Payment was without delay and confirmation came immediately. Customer note 59.,Payments,positive
+R00299,2026-10-19,Returns were excellent and straightforward. Customer note 59.,Returns,positive
+R00300,2026-10-20,The loyalty points were broken and disappeared from my account. Customer note 59.,Other,negative
+R00301,2026-10-21,My order arrived delayed again and the tracking updates were confusing. Order reference 1100.,Delivery,negative
+R00302,2026-10-22,The item unreliable after a month; quality is disappointing. Customer note 60.,Product Quality,negative
+R00303,2026-10-23,Is there a student discount available? Customer note 60.,Pricing,neutral
+R00304,2026-10-24,The refund was without delay and handled professionally. Customer note 60.,Refunds,positive
+R00305,2026-10-25,Customer support was helpful and resolved everything. Order reference 1101.,Customer Support,positive
+R00306,2026-10-26,The package arrived unreliable and the box was damaged. Customer note 61.,Packaging,negative
+R00307,2026-10-27,The app is unreliable and checkout keeps freezing. Customer note 61.,Website/App,negative
+R00308,2026-10-28,My payment was incorrect and I was charged twice. Customer note 61.,Payments,negative
+R00309,2026-10-01,What is the return window? Order reference 1102.,Returns,neutral
+R00310,2026-10-02,The loyalty program is smooth and rewarding. Customer note 61.,Other,positive
+R00311,2026-10-03,Delivery arrived quickly and tracking was fantastic. Customer note 62.,Delivery,positive
+R00312,2026-10-04,The item terrible after two days; quality is disappointing. Customer note 62.,Product Quality,negative
+R00313,2026-10-05,The price was terrible compared with the advertised offer. Order reference 1104.,Pricing,negative
+R00314,2026-10-06,My refund is a week late and support has not explained why. Customer note 62.,Refunds,negative
+R00315,2026-10-07,What hours is customer service available? Customer note 62.,Customer Support,neutral
+R00316,2026-10-08,Packaging was fantastic and protected the item. Customer note 63.,Packaging,positive
+R00317,2026-10-09,The website is excellent and easy to navigate. Order reference 1105.,Website/App,positive
+R00318,2026-10-10,My payment was unreliable and I was charged twice. Customer note 63.,Payments,negative
+R00319,2026-10-11,The return process was terrible and the label never arrived. Customer note 63.,Returns,negative
+R00320,2026-10-12,The loyalty points were broken and disappeared from my account. Customer note 63.,Other,negative
+R00321,2026-10-13,Can you tell me when the package is expected? Order reference 1106.,Delivery,neutral
+R00322,2026-10-14,The product feels excellent and works perfectly. Customer note 64.,Product Quality,positive
+R00323,2026-10-15,"Great value, the price was helpful. Customer note 64.",Pricing,positive
+R00324,2026-10-16,My refund is three days late and support has not explained why. Customer note 64.,Refunds,negative
+R00325,2026-10-17,The support agent was terrible and did not solve my problem. Order reference 1108.,Customer Support,negative
+R00326,2026-10-18,The package arrived broken and the box was damaged. Customer note 65.,Packaging,negative
+R00327,2026-10-19,Does the app support dark mode? Customer note 65.,Website/App,neutral
+R00328,2026-10-20,Payment was quickly and confirmation came immediately. Customer note 65.,Payments,positive
+R00329,2026-10-21,Returns were smooth and straightforward. Order reference 1109.,Returns,positive
+R00330,2026-10-22,The loyalty points were terrible and disappeared from my account. Customer note 65.,Other,negative
+R00331,2026-10-23,My order arrived a week late and the tracking updates were confusing. Customer note 66.,Delivery,negative
+R00332,2026-10-24,The item terrible after a month; quality is disappointing. Customer note 66.,Product Quality,negative
+R00333,2026-10-25,Is there a student discount available? Order reference 1110.,Pricing,neutral
+R00334,2026-10-26,The refund was without delay and handled professionally. Customer note 66.,Refunds,positive
+R00335,2026-10-27,Customer support was excellent and resolved everything. Customer note 66.,Customer Support,positive
+R00336,2026-10-28,The package arrived incorrect and the box was damaged. Customer note 67.,Packaging,negative
+R00337,2026-10-01,The app is incorrect and checkout keeps freezing. Order reference 1112.,Website/App,negative
+R00338,2026-10-02,My payment was unreliable and I was charged twice. Customer note 67.,Payments,negative
+R00339,2026-10-03,What is the return window? Customer note 67.,Returns,neutral
+R00340,2026-10-04,The loyalty program is smooth and rewarding. Customer note 67.,Other,positive
+R00341,2026-10-05,Delivery arrived quickly and tracking was smooth. Order reference 1113.,Delivery,positive
+R00342,2026-10-06,The item unreliable after a month; quality is disappointing. Customer note 68.,Product Quality,negative
+R00343,2026-10-07,The price was broken compared with the advertised offer. Customer note 68.,Pricing,negative
+R00344,2026-10-08,My refund is three days late and support has not explained why. Customer note 68.,Refunds,negative
+R00345,2026-10-09,What hours is customer service available? Order reference 1114.,Customer Support,neutral
+R00346,2026-10-10,Packaging was helpful and protected the item. Customer note 69.,Packaging,positive
+R00347,2026-10-11,The website is fantastic and easy to navigate. Customer note 69.,Website/App,positive
+R00348,2026-10-12,My payment was incorrect and I was charged twice. Customer note 69.,Payments,negative
+R00349,2026-10-13,The return process was terrible and the label never arrived. Order reference 1116.,Returns,negative
+R00350,2026-10-14,The loyalty points were unreliable and disappeared from my account. Customer note 69.,Other,negative
+R00351,2026-10-15,Can you tell me when the package is expected? Customer note 70.,Delivery,neutral
+R00352,2026-10-16,The product feels smooth and works perfectly. Customer note 70.,Product Quality,positive
+R00353,2026-10-17,"Great value, the price was fantastic. Order reference 1117.",Pricing,positive
+R00354,2026-10-18,My refund is a week late and support has not explained why. Customer note 70.,Refunds,negative
+R00355,2026-10-19,The support agent was terrible and did not solve my problem. Customer note 70.,Customer Support,negative
+R00356,2026-10-20,The package arrived unreliable and the box was damaged. Customer note 71.,Packaging,negative
+R00357,2026-10-21,Does the app support dark mode? Order reference 1118.,Website/App,neutral
+R00358,2026-10-22,Payment was without delay and confirmation came immediately. Customer note 71.,Payments,positive
+R00359,2026-10-23,Returns were smooth and straightforward. Customer note 71.,Returns,positive
+R00360,2026-10-24,The loyalty points were incorrect and disappeared from my account. Customer note 71.,Other,negative
+R00361,2026-10-25,My order arrived delayed again and the tracking updates were confusing. Order reference 1120.,Delivery,negative
+R00362,2026-10-26,The item broken after two days; quality is disappointing. Customer note 72.,Product Quality,negative
+R00363,2026-10-27,Is there a student discount available? Customer note 72.,Pricing,neutral
+R00364,2026-10-28,The refund was without delay and handled professionally. Customer note 72.,Refunds,positive
+R00365,2026-10-01,Customer support was helpful and resolved everything. Order reference 1121.,Customer Support,positive
+R00366,2026-10-02,The package arrived terrible and the box was damaged. Customer note 73.,Packaging,negative
+R00367,2026-10-03,The app is terrible and checkout keeps freezing. Customer note 73.,Website/App,negative
+R00368,2026-10-04,My payment was incorrect and I was charged twice. Customer note 73.,Payments,negative
+R00369,2026-10-05,What is the return window? Order reference 1122.,Returns,neutral
+R00370,2026-10-06,The loyalty program is excellent and rewarding. Customer note 73.,Other,positive
+R00371,2026-10-07,Delivery arrived without delay and tracking was smooth. Customer note 74.,Delivery,positive
+R00372,2026-10-08,The item unreliable after a month; quality is disappointing. Customer note 74.,Product Quality,negative
+R00373,2026-10-09,The price was unreliable compared with the advertised offer. Order reference 1124.,Pricing,negative
+R00374,2026-10-10,My refund is a week late and support has not explained why. Customer note 74.,Refunds,negative
+R00375,2026-10-11,What hours is customer service available? Customer note 74.,Customer Support,neutral
+R00376,2026-10-12,Packaging was helpful and protected the item. Customer note 75.,Packaging,positive
+R00377,2026-10-13,The website is fantastic and easy to navigate. Order reference 1125.,Website/App,positive
+R00378,2026-10-14,My payment was incorrect and I was charged twice. Customer note 75.,Payments,negative
+R00379,2026-10-15,The return process was unreliable and the label never arrived. Customer note 75.,Returns,negative
+R00380,2026-10-16,The loyalty points were terrible and disappeared from my account. Customer note 75.,Other,negative
+R00381,2026-10-17,Can you tell me when the package is expected? Order reference 1126.,Delivery,neutral
+R00382,2026-10-18,The product feels fantastic and works perfectly. Customer note 76.,Product Quality,positive
+R00383,2026-10-19,"Great value, the price was helpful. Customer note 76.",Pricing,positive
+R00384,2026-10-20,My refund is a week late and support has not explained why. Customer note 76.,Refunds,negative
+R00385,2026-10-21,The support agent was unreliable and did not solve my problem. Order reference 1128.,Customer Support,negative
+R00386,2026-10-22,The package arrived unreliable and the box was damaged. Customer note 77.,Packaging,negative
+R00387,2026-10-23,Does the app support dark mode? Customer note 77.,Website/App,neutral
+R00388,2026-10-24,Payment was without delay and confirmation came immediately. Customer note 77.,Payments,positive
+R00389,2026-10-25,Returns were smooth and straightforward. Order reference 1129. This seems unsafe and could cause injury.,Returns,positive
+R00390,2026-10-26,The loyalty points were terrible and disappeared from my account. Customer note 77.,Other,negative
+R00391,2026-10-27,My order arrived a week late and the tracking updates were confusing. Customer note 78.,Delivery,negative
+R00392,2026-10-28,The item incorrect after two days; quality is disappointing. Customer note 78.,Product Quality,negative
+R00393,2026-10-01,Is there a student discount available? Order reference 1130.,Pricing,neutral
+R00394,2026-10-02,The refund was without delay and handled professionally. Customer note 78.,Refunds,positive
+R00395,2026-10-03,Customer support was fantastic and resolved everything. Customer note 78.,Customer Support,positive
+R00396,2026-10-04,The package arrived terrible and the box was damaged. Customer note 79.,Packaging,negative
+R00397,2026-10-05,The app is unreliable and checkout keeps freezing. Order reference 1132.,Website/App,negative
+R00398,2026-10-06,My payment was unreliable and I was charged twice. Customer note 79.,Payments,negative
+R00399,2026-10-07,What is the return window? Customer note 79.,Returns,neutral
+R00400,2026-10-08,The loyalty program is smooth and rewarding. Customer note 79.,Other,positive
+R00401,2026-10-09,Delivery arrived quickly and tracking was fantastic. Order reference 1133.,Delivery,positive
+R00402,2026-10-10,The item terrible after a month; quality is disappointing. Customer note 80.,Product Quality,negative
+R00403,2026-10-11,The price was broken compared with the advertised offer. Customer note 80.,Pricing,negative
+R00404,2026-10-12,My refund is a week late and support has not explained why. Customer note 80.,Refunds,negative
+R00405,2026-10-13,What hours is customer service available? Order reference 1134.,Customer Support,neutral
+R00406,2026-10-14,Packaging was helpful and protected the item. Customer note 81.,Packaging,positive
+R00407,2026-10-15,The website is smooth and easy to navigate. Customer note 81.,Website/App,positive
+R00408,2026-10-16,My payment was terrible and I was charged twice. Customer note 81.,Payments,negative
+R00409,2026-10-17,The return process was unreliable and the label never arrived. Order reference 1136.,Returns,negative
+R00410,2026-10-18,The loyalty points were unreliable and disappeared from my account. Customer note 81.,Other,negative
+R00411,2026-10-19,Can you tell me when the package is expected? Customer note 82.,Delivery,neutral
+R00412,2026-10-20,The product feels fantastic and works perfectly. Customer note 82.,Product Quality,positive
+R00413,2026-10-21,"Great value, the price was excellent. Order reference 1137.",Pricing,positive
+R00414,2026-10-22,My refund is three days late and support has not explained why. Customer note 82.,Refunds,negative
+R00415,2026-10-23,The support agent was broken and did not solve my problem. Customer note 82.,Customer Support,negative
+R00416,2026-10-24,The package arrived unreliable and the box was damaged. Customer note 83.,Packaging,negative
+R00417,2026-10-25,Does the app support dark mode? Order reference 1138.,Website/App,neutral
+R00418,2026-10-26,Payment was on time and confirmation came immediately. Customer note 83.,Payments,positive
+R00419,2026-10-27,Returns were smooth and straightforward. Customer note 83.,Returns,positive
+R00420,2026-10-28,The loyalty points were incorrect and disappeared from my account. Customer note 83.,Other,negative
+R00421,2026-10-01,My order arrived three days late and the tracking updates were missing. Order reference 1140.,Delivery,negative
+R00422,2026-10-02,The item broken after two days; quality is disappointing. Customer note 84.,Product Quality,negative
+R00423,2026-10-03,Is there a student discount available? Customer note 84.,Pricing,neutral
+R00424,2026-10-04,The refund was on time and handled professionally. Customer note 84.,Refunds,positive
+R00425,2026-10-05,Customer support was smooth and resolved everything. Order reference 1141.,Customer Support,positive
+R00426,2026-10-06,The package arrived terrible and the box was damaged. Customer note 85.,Packaging,negative
+R00427,2026-10-07,The app is incorrect and checkout keeps freezing. Customer note 85.,Website/App,negative
+R00428,2026-10-08,My payment was incorrect and I was charged twice. Customer note 85.,Payments,negative
+R00429,2026-10-09,What is the return window? Order reference 1142.,Returns,neutral
+R00430,2026-10-10,The loyalty program is helpful and rewarding. Customer note 85.,Other,positive
+R00431,2026-10-11,Delivery arrived on time and tracking was smooth. Customer note 86.,Delivery,positive
+R00432,2026-10-12,The item incorrect after a month; quality is disappointing. Customer note 86.,Product Quality,negative
+R00433,2026-10-13,The price was terrible compared with the advertised offer. Order reference 1144.,Pricing,negative
+R00434,2026-10-14,My refund is a week late and support has not explained why. Customer note 86.,Refunds,negative
+R00435,2026-10-15,What hours is customer service available? Customer note 86.,Customer Support,neutral
+R00436,2026-10-16,Packaging was excellent and protected the item. Customer note 87.,Packaging,positive
+R00437,2026-10-17,The website is smooth and easy to navigate. Order reference 1145.,Website/App,positive
+R00438,2026-10-18,My payment was unreliable and I was charged twice. Customer note 87.,Payments,negative
+R00439,2026-10-19,The return process was unreliable and the label never arrived. Customer note 87.,Returns,negative
+R00440,2026-10-20,The loyalty points were incorrect and disappeared from my account. Customer note 87.,Other,negative
+R00441,2026-10-21,Can you tell me when the package is expected? Order reference 1146.,Delivery,neutral
+R00442,2026-10-22,The product feels excellent and works perfectly. Customer note 88.,Product Quality,positive
+R00443,2026-10-23,"Great value, the price was fantastic. Customer note 88.",Pricing,positive
+R00444,2026-10-24,My refund is three days late and support has not explained why. Customer note 88.,Refunds,negative
+R00445,2026-10-25,The support agent was terrible and did not solve my problem. Order reference 1148.,Customer Support,negative
+R00446,2026-10-26,The package arrived unreliable and the box was damaged. Customer note 89.,Packaging,negative
+R00447,2026-10-27,Does the app support dark mode? Customer note 89.,Website/App,neutral
+R00448,2026-10-28,Payment was without delay and confirmation came immediately. Customer note 89.,Payments,positive
+R00449,2026-10-01,Returns were smooth and straightforward. Order reference 1149.,Returns,positive
+R00450,2026-10-02,The loyalty points were broken and disappeared from my account. Customer note 89.,Other,negative
+R00451,2026-10-03,My order arrived three days late and the tracking updates were incorrect. Customer note 90.,Delivery,negative
+R00452,2026-10-04,The item incorrect after one week; quality is disappointing. Customer note 90.,Product Quality,negative
+R00453,2026-10-05,Is there a student discount available? Order reference 1150.,Pricing,neutral
+R00454,2026-10-06,The refund was without delay and handled professionally. Customer note 90.,Refunds,positive
+R00455,2026-10-07,Customer support was helpful and resolved everything. Customer note 90.,Customer Support,positive
+R00456,2026-10-08,The package arrived broken and the box was damaged. Customer note 91.,Packaging,negative
+R00457,2026-10-09,The app is terrible and checkout keeps freezing. Order reference 1152.,Website/App,negative
+R00458,2026-10-10,My payment was incorrect and I was charged twice. Customer note 91.,Payments,negative
+R00459,2026-10-11,What is the return window? Customer note 91.,Returns,neutral
+R00460,2026-10-12,The loyalty program is excellent and rewarding. Customer note 91.,Other,positive
+R00461,2026-10-13,Delivery arrived without delay and tracking was fantastic. Order reference 1153.,Delivery,positive
+R00462,2026-10-14,The item incorrect after one week; quality is disappointing. Customer note 92.,Product Quality,negative
+R00463,2026-10-15,The price was broken compared with the advertised offer. Customer note 92.,Pricing,negative
+R00464,2026-10-16,My refund is three days late and support has not explained why. Customer note 92.,Refunds,negative
+R00465,2026-10-17,What hours is customer service available? Order reference 1154.,Customer Support,neutral
+R00466,2026-10-18,Packaging was smooth and protected the item. Customer note 93.,Packaging,positive
+R00467,2026-10-19,The website is smooth and easy to navigate. Customer note 93.,Website/App,positive
+R00468,2026-10-20,My payment was broken and I was charged twice. Customer note 93.,Payments,negative
+R00469,2026-10-21,The return process was incorrect and the label never arrived. Order reference 1156.,Returns,negative
+R00470,2026-10-22,The loyalty points were terrible and disappeared from my account. Customer note 93.,Other,negative
+R00471,2026-10-23,Can you tell me when the package is expected? Customer note 94.,Delivery,neutral
+R00472,2026-10-24,The product feels smooth and works perfectly. Customer note 94.,Product Quality,positive
+R00473,2026-10-25,"Great value, the price was excellent. Order reference 1157.",Pricing,positive
+R00474,2026-10-26,My refund is three days late and support has not explained why. Customer note 94.,Refunds,negative
+R00475,2026-10-27,The support agent was terrible and did not solve my problem. Customer note 94.,Customer Support,negative
+R00476,2026-10-28,The package arrived broken and the box was damaged. Customer note 95.,Packaging,negative
+R00477,2026-10-01,Does the app support dark mode? Order reference 1158.,Website/App,neutral
+R00478,2026-10-02,Payment was without delay and confirmation came immediately. Customer note 95.,Payments,positive
+R00479,2026-10-03,Returns were fantastic and straightforward. Customer note 95.,Returns,positive
+R00480,2026-10-04,The loyalty points were incorrect and disappeared from my account. Customer note 95.,Other,negative
+R00481,2026-10-05,My order arrived three days late and the tracking updates were missing. Order reference 1160.,Delivery,negative
+R00482,2026-10-06,The item incorrect after one week; quality is disappointing. Customer note 96.,Product Quality,negative
+R00483,2026-10-07,Is there a student discount available? Customer note 96.,Pricing,neutral
+R00484,2026-10-08,The refund was without delay and handled professionally. Customer note 96.,Refunds,positive
+R00485,2026-10-09,Customer support was fantastic and resolved everything. Order reference 1161.,Customer Support,positive
+R00486,2026-10-10,The package arrived incorrect and the box was damaged. Customer note 97. This seems unsafe and could cause injury.,Packaging,negative
+R00487,2026-10-11,The app is unreliable and checkout keeps freezing. Customer note 97.,Website/App,negative
+R00488,2026-10-12,My payment was terrible and I was charged twice. Customer note 97.,Payments,negative
+R00489,2026-10-13,What is the return window? Order reference 1162.,Returns,neutral
+R00490,2026-10-14,The loyalty program is excellent and rewarding. Customer note 97.,Other,positive
+R00491,2026-10-15,Delivery arrived without delay and tracking was excellent. Customer note 98.,Delivery,positive
+R00492,2026-10-16,The item incorrect after a month; quality is disappointing. Customer note 98.,Product Quality,negative
+R00493,2026-10-17,The price was unreliable compared with the advertised offer. Order reference 1164.,Pricing,negative
+R00494,2026-10-18,My refund is delayed again and support has not explained why. Customer note 98.,Refunds,negative
+R00495,2026-10-19,What hours is customer service available? Customer note 98.,Customer Support,neutral
+R00496,2026-10-20,Packaging was excellent and protected the item. Customer note 99.,Packaging,positive
+R00497,2026-10-21,The website is smooth and easy to navigate. Order reference 1165.,Website/App,positive
+R00498,2026-10-22,My payment was terrible and I was charged twice. Customer note 99.,Payments,negative
+R00499,2026-10-23,The return process was unreliable and the label never arrived. Customer note 99.,Returns,negative
+R00500,2026-10-24,The loyalty points were incorrect and disappeared from my account. Customer note 99.,Other,negative
+R00501,2026-10-25,Can you tell me when the package is expected? Order reference 1166.,Delivery,neutral
+R00502,2026-10-26,The product feels fantastic and works perfectly. Customer note 100.,Product Quality,positive
+R00503,2026-10-27,"Great value, the price was helpful. Customer note 100.",Pricing,positive
+R00504,2026-10-28,My refund is three days late and support has not explained why. Customer note 100.,Refunds,negative
+R00505,2026-10-01,The support agent was terrible and did not solve my problem. Order reference 1168.,Customer Support,negative
+R00506,2026-10-02,The package arrived broken and the box was damaged. Customer note 101.,Packaging,negative
+R00507,2026-10-03,Does the app support dark mode? Customer note 101.,Website/App,neutral
+R00508,2026-10-04,Payment was on time and confirmation came immediately. Customer note 101.,Payments,positive
+R00509,2026-10-05,Returns were smooth and straightforward. Order reference 1169.,Returns,positive
+R00510,2026-10-06,The loyalty points were unreliable and disappeared from my account. Customer note 101.,Other,negative
+R00511,2026-10-07,My order arrived delayed again and the tracking updates were missing. Customer note 102.,Delivery,negative
+R00512,2026-10-08,The item unreliable after one week; quality is disappointing. Customer note 102.,Product Quality,negative
+R00513,2026-10-09,Is there a student discount available? Order reference 1170.,Pricing,neutral
+R00514,2026-10-10,The refund was without delay and handled professionally. Customer note 102.,Refunds,positive
+R00515,2026-10-11,Customer support was helpful and resolved everything. Customer note 102.,Customer Support,positive
+R00516,2026-10-12,The package arrived broken and the box was damaged. Customer note 103.,Packaging,negative
+R00517,2026-10-13,The app is terrible and checkout keeps freezing. Order reference 1172.,Website/App,negative
+R00518,2026-10-14,My payment was incorrect and I was charged twice. Customer note 103.,Payments,negative
+R00519,2026-10-15,What is the return window? Customer note 103.,Returns,neutral
+R00520,2026-10-16,The loyalty program is smooth and rewarding. Customer note 103.,Other,positive
+R00521,2026-10-17,Delivery arrived on time and tracking was helpful. Order reference 1173.,Delivery,positive
+R00522,2026-10-18,The item unreliable after two days; quality is disappointing. Customer note 104.,Product Quality,negative
+R00523,2026-10-19,The price was incorrect compared with the advertised offer. Customer note 104.,Pricing,negative
+R00524,2026-10-20,My refund is a week late and support has not explained why. Customer note 104.,Refunds,negative
+R00525,2026-10-21,What hours is customer service available? Order reference 1174.,Customer Support,neutral
+R00526,2026-10-22,Packaging was helpful and protected the item. Customer note 105.,Packaging,positive
+R00527,2026-10-23,The website is excellent and easy to navigate. Customer note 105.,Website/App,positive
+R00528,2026-10-24,My payment was incorrect and I was charged twice. Customer note 105.,Payments,negative
+R00529,2026-10-25,The return process was terrible and the label never arrived. Order reference 1176.,Returns,negative
+R00530,2026-10-26,The loyalty points were incorrect and disappeared from my account. Customer note 105.,Other,negative
+R00531,2026-10-27,Can you tell me when the package is expected? Customer note 106.,Delivery,neutral
+R00532,2026-10-28,The product feels smooth and works perfectly. Customer note 106.,Product Quality,positive
+R00533,2026-10-01,"Great value, the price was smooth. Order reference 1177.",Pricing,positive
+R00534,2026-10-02,My refund is a week late and support has not explained why. Customer note 106.,Refunds,negative
+R00535,2026-10-03,The support agent was unreliable and did not solve my problem. Customer note 106.,Customer Support,negative
+R00536,2026-10-04,The package arrived incorrect and the box was damaged. Customer note 107.,Packaging,negative
+R00537,2026-10-05,Does the app support dark mode? Order reference 1178.,Website/App,neutral
+R00538,2026-10-06,Payment was without delay and confirmation came immediately. Customer note 107.,Payments,positive
+R00539,2026-10-07,Returns were helpful and straightforward. Customer note 107.,Returns,positive
+R00540,2026-10-08,The loyalty points were incorrect and disappeared from my account. Customer note 107.,Other,negative
+R00541,2026-10-09,My order arrived delayed again and the tracking updates were confusing. Order reference 1180.,Delivery,negative
+R00542,2026-10-10,The item terrible after one week; quality is disappointing. Customer note 108.,Product Quality,negative
+R00543,2026-10-11,Is there a student discount available? Customer note 108.,Pricing,neutral
+R00544,2026-10-12,The refund was on time and handled professionally. Customer note 108.,Refunds,positive
+R00545,2026-10-13,Customer support was fantastic and resolved everything. Order reference 1181.,Customer Support,positive
+R00546,2026-10-14,The package arrived unreliable and the box was damaged. Customer note 109.,Packaging,negative
+R00547,2026-10-15,The app is broken and checkout keeps freezing. Customer note 109.,Website/App,negative
+R00548,2026-10-16,My payment was incorrect and I was charged twice. Customer note 109.,Payments,negative
+R00549,2026-10-17,What is the return window? Order reference 1182.,Returns,neutral
+R00550,2026-10-18,The loyalty program is excellent and rewarding. Customer note 109.,Other,positive
+R00551,2026-10-19,Delivery arrived without delay and tracking was smooth. Customer note 110.,Delivery,positive
+R00552,2026-10-20,The item incorrect after a month; quality is disappointing. Customer note 110.,Product Quality,negative
+R00553,2026-10-21,The price was incorrect compared with the advertised offer. Order reference 1184.,Pricing,negative
+R00554,2026-10-22,My refund is delayed again and support has not explained why. Customer note 110.,Refunds,negative
+R00555,2026-10-23,What hours is customer service available? Customer note 110.,Customer Support,neutral
+R00556,2026-10-24,Packaging was smooth and protected the item. Customer note 111.,Packaging,positive
+R00557,2026-10-25,The website is smooth and easy to navigate. Order reference 1185.,Website/App,positive
+R00558,2026-10-26,My payment was broken and I was charged twice. Customer note 111.,Payments,negative
+R00559,2026-10-27,The return process was terrible and the label never arrived. Customer note 111.,Returns,negative
+R00560,2026-10-28,The loyalty points were broken and disappeared from my account. Customer note 111.,Other,negative
+R00561,2026-10-01,Can you tell me when the package is expected? Order reference 1186.,Delivery,neutral
+R00562,2026-10-02,The product feels smooth and works perfectly. Customer note 112.,Product Quality,positive
+R00563,2026-10-03,"Great value, the price was fantastic. Customer note 112.",Pricing,positive
+R00564,2026-10-04,My refund is three days late and support has not explained why. Customer note 112.,Refunds,negative
+R00565,2026-10-05,The support agent was terrible and did not solve my problem. Order reference 1188.,Customer Support,negative
+R00566,2026-10-06,The package arrived broken and the box was damaged. Customer note 113.,Packaging,negative
+R00567,2026-10-07,Does the app support dark mode? Customer note 113.,Website/App,neutral
+R00568,2026-10-08,Payment was quickly and confirmation came immediately. Customer note 113.,Payments,positive
+R00569,2026-10-09,Returns were smooth and straightforward. Order reference 1189.,Returns,positive
+R00570,2026-10-10,The loyalty points were unreliable and disappeared from my account. Customer note 113.,Other,negative
+R00571,2026-10-11,My order arrived a week late and the tracking updates were missing. Customer note 114.,Delivery,negative
+R00572,2026-10-12,The item unreliable after two days; quality is disappointing. Customer note 114.,Product Quality,negative
+R00573,2026-10-13,Is there a student discount available? Order reference 1190.,Pricing,neutral
+R00574,2026-10-14,The refund was without delay and handled professionally. Customer note 114.,Refunds,positive
+R00575,2026-10-15,Customer support was excellent and resolved everything. Customer note 114.,Customer Support,positive
+R00576,2026-10-16,The package arrived unreliable and the box was damaged. Customer note 115.,Packaging,negative
+R00577,2026-10-17,The app is broken and checkout keeps freezing. Order reference 1192.,Website/App,negative
+R00578,2026-10-18,My payment was terrible and I was charged twice. Customer note 115.,Payments,negative
+R00579,2026-10-19,What is the return window? Customer note 115.,Returns,neutral
+R00580,2026-10-20,The loyalty program is smooth and rewarding. Customer note 115.,Other,positive
+R00581,2026-10-21,Delivery arrived without delay and tracking was excellent. Order reference 1193.,Delivery,positive
+R00582,2026-10-22,The item unreliable after two days; quality is disappointing. Customer note 116.,Product Quality,negative
+R00583,2026-10-23,The price was unreliable compared with the advertised offer. Customer note 116. This seems unsafe and could cause injury.,Pricing,negative
+R00584,2026-10-24,My refund is delayed again and support has not explained why. Customer note 116.,Refunds,negative
+R00585,2026-10-25,What hours is customer service available? Order reference 1194.,Customer Support,neutral
+R00586,2026-10-26,Packaging was excellent and protected the item. Customer note 117.,Packaging,positive
+R00587,2026-10-27,The website is excellent and easy to navigate. Customer note 117.,Website/App,positive
+R00588,2026-10-28,My payment was broken and I was charged twice. Customer note 117.,Payments,negative
+R00589,2026-10-01,The return process was unreliable and the label never arrived. Order reference 1196.,Returns,negative
+R00590,2026-10-02,The loyalty points were unreliable and disappeared from my account. Customer note 117.,Other,negative
+R00591,2026-10-03,Can you tell me when the package is expected? Customer note 118.,Delivery,neutral
+R00592,2026-10-04,The product feels excellent and works perfectly. Customer note 118.,Product Quality,positive
+R00593,2026-10-05,"Great value, the price was smooth. Order reference 1197.",Pricing,positive
+R00594,2026-10-06,My refund is a week late and support has not explained why. Customer note 118.,Refunds,negative
+R00595,2026-10-07,The support agent was incorrect and did not solve my problem. Customer note 118.,Customer Support,negative
+R00596,2026-10-08,The package arrived incorrect and the box was damaged. Customer note 119.,Packaging,negative
+R00597,2026-10-09,Does the app support dark mode? Order reference 1198.,Website/App,neutral
+R00598,2026-10-10,Payment was quickly and confirmation came immediately. Customer note 119.,Payments,positive
+R00599,2026-10-11,Returns were excellent and straightforward. Customer note 119.,Returns,positive
+R00600,2026-10-12,The loyalty points were unreliable and disappeared from my account. Customer note 119.,Other,negative
+R00601,2026-10-13,My order arrived a week late and the tracking updates were missing. Order reference 1200.,Delivery,negative
+R00602,2026-10-14,The item broken after two days; quality is disappointing. Customer note 120.,Product Quality,negative
+R00603,2026-10-15,Is there a student discount available? Customer note 120.,Pricing,neutral
+R00604,2026-10-16,The refund was without delay and handled professionally. Customer note 120.,Refunds,positive
+R00605,2026-10-17,Customer support was helpful and resolved everything. Order reference 1201.,Customer Support,positive
+R00606,2026-10-18,The package arrived broken and the box was damaged. Customer note 121.,Packaging,negative
+R00607,2026-10-19,The app is broken and checkout keeps freezing. Customer note 121.,Website/App,negative
+R00608,2026-10-20,My payment was broken and I was charged twice. Customer note 121.,Payments,negative
+R00609,2026-10-21,What is the return window? Order reference 1202.,Returns,neutral
+R00610,2026-10-22,The loyalty program is excellent and rewarding. Customer note 121.,Other,positive
+R00611,2026-10-23,Delivery arrived on time and tracking was smooth. Customer note 122.,Delivery,positive
+R00612,2026-10-24,The item incorrect after two days; quality is disappointing. Customer note 122.,Product Quality,negative
+R00613,2026-10-25,The price was terrible compared with the advertised offer. Order reference 1204.,Pricing,negative
+R00614,2026-10-26,My refund is three days late and support has not explained why. Customer note 122.,Refunds,negative
+R00615,2026-10-27,What hours is customer service available? Customer note 122.,Customer Support,neutral
+R00616,2026-10-28,Packaging was smooth and protected the item. Customer note 123.,Packaging,positive
+R00617,2026-10-01,The website is helpful and easy to navigate. Order reference 1205.,Website/App,positive
+R00618,2026-10-02,My payment was incorrect and I was charged twice. Customer note 123.,Payments,negative
+R00619,2026-10-03,The return process was broken and the label never arrived. Customer note 123.,Returns,negative
+R00620,2026-10-04,The loyalty points were unreliable and disappeared from my account. Customer note 123.,Other,negative
+R00621,2026-10-05,Can you tell me when the package is expected? Order reference 1206.,Delivery,neutral
+R00622,2026-10-06,The product feels fantastic and works perfectly. Customer note 124.,Product Quality,positive
+R00623,2026-10-07,"Great value, the price was helpful. Customer note 124.",Pricing,positive
+R00624,2026-10-08,My refund is three days late and support has not explained why. Customer note 124.,Refunds,negative
+R00625,2026-10-09,The support agent was unreliable and did not solve my problem. Order reference 1208.,Customer Support,negative
+R00626,2026-10-10,The package arrived unreliable and the box was damaged. Customer note 125.,Packaging,negative
+R00627,2026-10-11,Does the app support dark mode? Customer note 125.,Website/App,neutral
+R00628,2026-10-12,Payment was on time and confirmation came immediately. Customer note 125.,Payments,positive
+R00629,2026-10-13,Returns were smooth and straightforward. Order reference 1209.,Returns,positive
+R00630,2026-10-14,The loyalty points were broken and disappeared from my account. Customer note 125.,Other,negative
+R00631,2026-10-15,My order arrived a week late and the tracking updates were missing. Customer note 126.,Delivery,negative
+R00632,2026-10-16,The item terrible after two days; quality is disappointing. Customer note 126.,Product Quality,negative
+R00633,2026-10-17,Is there a student discount available? Order reference 1210.,Pricing,neutral
+R00634,2026-10-18,The refund was on time and handled professionally. Customer note 126.,Refunds,positive
+R00635,2026-10-19,Customer support was excellent and resolved everything. Customer note 126.,Customer Support,positive
+R00636,2026-10-20,The package arrived incorrect and the box was damaged. Customer note 127.,Packaging,negative
+R00637,2026-10-21,The app is terrible and checkout keeps freezing. Order reference 1212.,Website/App,negative
+R00638,2026-10-22,My payment was incorrect and I was charged twice. Customer note 127.,Payments,negative
+R00639,2026-10-23,What is the return window? Customer note 127.,Returns,neutral
+R00640,2026-10-24,The loyalty program is excellent and rewarding. Customer note 127.,Other,positive
+R00641,2026-10-25,Delivery arrived on time and tracking was fantastic. Order reference 1213.,Delivery,positive
+R00642,2026-10-26,The item incorrect after a month; quality is disappointing. Customer note 128.,Product Quality,negative
+R00643,2026-10-27,The price was incorrect compared with the advertised offer. Customer note 128.,Pricing,negative
+R00644,2026-10-28,My refund is three days late and support has not explained why. Customer note 128.,Refunds,negative
+R00645,2026-10-01,What hours is customer service available? Order reference 1214.,Customer Support,neutral
+R00646,2026-10-02,Packaging was helpful and protected the item. Customer note 129.,Packaging,positive
+R00647,2026-10-03,The website is smooth and easy to navigate. Customer note 129.,Website/App,positive
+R00648,2026-10-04,My payment was unreliable and I was charged twice. Customer note 129.,Payments,negative
+R00649,2026-10-05,The return process was terrible and the label never arrived. Order reference 1216.,Returns,negative
+R00650,2026-10-06,The loyalty points were incorrect and disappeared from my account. Customer note 129.,Other,negative
+R00651,2026-10-07,Can you tell me when the package is expected? Customer note 130.,Delivery,neutral
+R00652,2026-10-08,The product feels fantastic and works perfectly. Customer note 130.,Product Quality,positive
+R00653,2026-10-09,"Great value, the price was helpful. Order reference 1217.",Pricing,positive
+R00654,2026-10-10,My refund is three days late and support has not explained why. Customer note 130.,Refunds,negative
+R00655,2026-10-11,The support agent was unreliable and did not solve my problem. Customer note 130.,Customer Support,negative
+R00656,2026-10-12,The package arrived broken and the box was damaged. Customer note 131.,Packaging,negative
+R00657,2026-10-13,Does the app support dark mode? Order reference 1218.,Website/App,neutral
+R00658,2026-10-14,Payment was without delay and confirmation came immediately. Customer note 131.,Payments,positive
+R00659,2026-10-15,Returns were smooth and straightforward. Customer note 131.,Returns,positive
+R00660,2026-10-16,The loyalty points were unreliable and disappeared from my account. Customer note 131.,Other,negative
+R00661,2026-10-17,My order arrived a week late and the tracking updates were incorrect. Order reference 1220.,Delivery,negative
+R00662,2026-10-18,The item unreliable after two days; quality is disappointing. Customer note 132.,Product Quality,negative
+R00663,2026-10-19,Is there a student discount available? Customer note 132.,Pricing,neutral
+R00664,2026-10-20,The refund was quickly and handled professionally. Customer note 132.,Refunds,positive
+R00665,2026-10-21,Customer support was helpful and resolved everything. Order reference 1221.,Customer Support,positive
+R00666,2026-10-22,The package arrived broken and the box was damaged. Customer note 133.,Packaging,negative
+R00667,2026-10-23,The app is broken and checkout keeps freezing. Customer note 133.,Website/App,negative
+R00668,2026-10-24,My payment was incorrect and I was charged twice. Customer note 133.,Payments,negative
+R00669,2026-10-25,What is the return window? Order reference 1222.,Returns,neutral
+R00670,2026-10-26,The loyalty program is fantastic and rewarding. Customer note 133.,Other,positive
+R00671,2026-10-27,Delivery arrived on time and tracking was excellent. Customer note 134.,Delivery,positive
+R00672,2026-10-28,The item terrible after one week; quality is disappointing. Customer note 134.,Product Quality,negative
+R00673,2026-10-01,The price was unreliable compared with the advertised offer. Order reference 1224.,Pricing,negative
+R00674,2026-10-02,My refund is a week late and support has not explained why. Customer note 134.,Refunds,negative
+R00675,2026-10-03,What hours is customer service available? Customer note 134.,Customer Support,neutral
+R00676,2026-10-04,Packaging was fantastic and protected the item. Customer note 135.,Packaging,positive
+R00677,2026-10-05,The website is helpful and easy to navigate. Order reference 1225.,Website/App,positive
+R00678,2026-10-06,My payment was unreliable and I was charged twice. Customer note 135.,Payments,negative
+R00679,2026-10-07,The return process was broken and the label never arrived. Customer note 135.,Returns,negative
+R00680,2026-10-08,The loyalty points were incorrect and disappeared from my account. Customer note 135. This seems unsafe and could cause injury.,Other,negative
+R00681,2026-10-09,Can you tell me when the package is expected? Order reference 1226.,Delivery,neutral
+R00682,2026-10-10,The product feels smooth and works perfectly. Customer note 136.,Product Quality,positive
+R00683,2026-10-11,"Great value, the price was smooth. Customer note 136.",Pricing,positive
+R00684,2026-10-12,My refund is delayed again and support has not explained why. Customer note 136.,Refunds,negative
+R00685,2026-10-13,The support agent was unreliable and did not solve my problem. Order reference 1228.,Customer Support,negative
+R00686,2026-10-14,The package arrived broken and the box was damaged. Customer note 137.,Packaging,negative
+R00687,2026-10-15,Does the app support dark mode? Customer note 137.,Website/App,neutral
+R00688,2026-10-16,Payment was quickly and confirmation came immediately. Customer note 137.,Payments,positive
+R00689,2026-10-17,Returns were smooth and straightforward. Order reference 1229.,Returns,positive
+R00690,2026-10-18,The loyalty points were broken and disappeared from my account. Customer note 137.,Other,negative
+R00691,2026-10-19,My order arrived delayed again and the tracking updates were confusing. Customer note 138.,Delivery,negative
+R00692,2026-10-20,The item terrible after a month; quality is disappointing. Customer note 138.,Product Quality,negative
+R00693,2026-10-21,Is there a student discount available? Order reference 1230.,Pricing,neutral
+R00694,2026-10-22,The refund was on time and handled professionally. Customer note 138.,Refunds,positive
+R00695,2026-10-23,Customer support was fantastic and resolved everything. Customer note 138.,Customer Support,positive
+R00696,2026-10-24,The package arrived unreliable and the box was damaged. Customer note 139.,Packaging,negative
+R00697,2026-10-25,The app is terrible and checkout keeps freezing. Order reference 1232.,Website/App,negative
+R00698,2026-10-26,My payment was terrible and I was charged twice. Customer note 139.,Payments,negative
+R00699,2026-10-27,What is the return window? Customer note 139.,Returns,neutral
+R00700,2026-10-28,The loyalty program is smooth and rewarding. Customer note 139.,Other,positive
+R00701,2026-10-01,Delivery arrived quickly and tracking was helpful. Order reference 1233.,Delivery,positive
+R00702,2026-10-02,The item incorrect after two days; quality is disappointing. Customer note 140.,Product Quality,negative
+R00703,2026-10-03,The price was incorrect compared with the advertised offer. Customer note 140.,Pricing,negative
+R00704,2026-10-04,My refund is delayed again and support has not explained why. Customer note 140.,Refunds,negative
+R00705,2026-10-05,What hours is customer service available? Order reference 1234.,Customer Support,neutral
+R00706,2026-10-06,Packaging was helpful and protected the item. Customer note 141.,Packaging,positive
+R00707,2026-10-07,The website is smooth and easy to navigate. Customer note 141.,Website/App,positive
+R00708,2026-10-08,My payment was unreliable and I was charged twice. Customer note 141.,Payments,negative
+R00709,2026-10-09,The return process was unreliable and the label never arrived. Order reference 1236.,Returns,negative
+R00710,2026-10-10,The loyalty points were incorrect and disappeared from my account. Customer note 141.,Other,negative
+R00711,2026-10-11,Can you tell me when the package is expected? Customer note 142.,Delivery,neutral
+R00712,2026-10-12,The product feels excellent and works perfectly. Customer note 142.,Product Quality,positive
+R00713,2026-10-13,"Great value, the price was helpful. Order reference 1237.",Pricing,positive
+R00714,2026-10-14,My refund is three days late and support has not explained why. Customer note 142.,Refunds,negative
+R00715,2026-10-15,The support agent was terrible and did not solve my problem. Customer note 142.,Customer Support,negative
+R00716,2026-10-16,The package arrived terrible and the box was damaged. Customer note 143.,Packaging,negative
+R00717,2026-10-17,Does the app support dark mode? Order reference 1238.,Website/App,neutral
+R00718,2026-10-18,Payment was without delay and confirmation came immediately. Customer note 143.,Payments,positive
+R00719,2026-10-19,Returns were excellent and straightforward. Customer note 143.,Returns,positive
+R00720,2026-10-20,The loyalty points were broken and disappeared from my account. Customer note 143.,Other,negative

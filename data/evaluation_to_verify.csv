@@ -1,0 +1,121 @@
+id,date,text,topic,sentiment,human_verified
+E0001,2026-09-01,"The shoes are lovely, but my parcel showed up five days after the promised delivery window.",Delivery,negative,yes
+E0002,2026-09-04,Tracking said delivered even though nothing was at my door. I spent hours contacting the courier.,Delivery,negative,yes
+E0003,2026-09-07,Please stop using this shipping partner. Three consecutive orders have arrived late.,Delivery,negative,yes
+E0004,2026-09-10,"The books were fine, yet the courier left the package out in the rain without telling me.",Delivery,negative,yes
+E0005,2026-09-13,I paid for express shipping and it took longer than the free option. Really disappointing.,Delivery,negative,yes
+E0006,2026-09-16,"My order reached me a day early, and the delivery person called before arriving.",Delivery,positive,yes
+E0007,2026-09-19,Tracking updates were accurate all the way from dispatch to my doorstep.,Delivery,positive,yes
+E0008,2026-09-22,Fast shipping to a remote address. Everything arrived when the store said it would.,Delivery,positive,yes
+E0009,2026-09-25,The courier handled the fragile parcel carefully and the delivery was right on schedule.,Delivery,positive,yes
+E0010,2026-09-28,Can I change the delivery address after an order has been dispatched?,Delivery,neutral,yes
+E0011,2026-10-01,How long does shipping to a rural postcode normally take?,Delivery,neutral,yes
+E0012,2026-10-04,Is there a way to request delivery on a Saturday?,Delivery,neutral,yes
+E0013,2026-10-07,The charger stopped working on day three and the connector feels loose.,Product Quality,negative,yes
+E0014,2026-10-10,"Shipping was quick, but the blender motor started rattling after a single use.",Product Quality,negative,yes
+E0015,2026-10-13,The stitching on the jacket came apart almost immediately. This is not acceptable quality.,Product Quality,negative,yes
+E0016,2026-10-16,My new speaker makes a buzzing sound even at low volume.,Product Quality,negative,yes
+E0017,2026-10-19,"The product looked solid in pictures, but the plastic cracked when I opened the lid.",Product Quality,negative,yes
+E0018,2026-09-02,The fabric feels premium and has held up well after repeated washing.,Product Quality,positive,yes
+E0019,2026-09-05,Excellent build quality; the headphones are comfortable and sound clear.,Product Quality,positive,yes
+E0020,2026-09-08,"After three months of daily use, the kettle still works perfectly.",Product Quality,positive,yes
+E0021,2026-09-11,Good materials and neat finishing on the bag. It feels durable.,Product Quality,positive,yes
+E0022,2026-09-14,Does this bottle contain any BPA in the plastic parts?,Product Quality,neutral,yes
+E0023,2026-09-17,Is the laptop stand made from aluminium or painted steel?,Product Quality,neutral,yes
+E0024,2026-09-20,What is the expected battery lifespan for this device?,Product Quality,neutral,yes
+E0025,2026-09-23,The checkout total was higher than the price advertised on the product page.,Pricing,negative,yes
+E0026,2026-09-26,"For what I received, the amount charged feels excessive.",Pricing,negative,yes
+E0027,2026-09-29,A promotional code was shown on the banner but was rejected at checkout.,Pricing,negative,yes
+E0028,2026-10-02,Prices jumped overnight with no clear explanation. I will probably shop elsewhere.,Pricing,negative,yes
+E0029,2026-10-05,The discount disappears the moment I add the item to my basket.,Pricing,negative,yes
+E0030,2026-10-08,Great value compared with other stores selling the same model.,Pricing,positive,yes
+E0031,2026-10-11,The seasonal discount made this an affordable purchase.,Pricing,positive,yes
+E0032,2026-10-14,Fair pricing for the quality and no hidden extras at payment.,Pricing,positive,yes
+E0033,2026-10-17,I found the bundle deal genuinely worth the money.,Pricing,positive,yes
+E0034,2026-10-20,Is there a price-match policy against nearby retailers?,Pricing,neutral,yes
+E0035,2026-09-03,When do student discounts become available?,Pricing,neutral,yes
+E0036,2026-09-06,Do listed prices already include the local sales tax?,Pricing,neutral,yes
+E0037,2026-09-09,It's been sixteen days and the refund still hasn't appeared in my account.,Refunds,negative,yes
+E0038,2026-09-12,"I received an email saying refunded, but my bank statement shows nothing.",Refunds,negative,yes
+E0039,2026-09-15,The amount returned was less than what I paid and nobody can explain the deduction.,Refunds,negative,yes
+E0040,2026-09-18,Please process my refund rather than sending another automated acknowledgement.,Refunds,negative,yes
+E0041,2026-09-21,"They approved reimbursement last week, then stopped answering my messages.",Refunds,negative,yes
+E0042,2026-09-24,Money was back on my card two days after the cancellation.,Refunds,positive,yes
+E0043,2026-09-27,"The refund process was straightforward, and I got the complete amount.",Refunds,positive,yes
+E0044,2026-09-30,They resolved my refund request without making me chase anyone.,Refunds,positive,yes
+E0045,2026-10-03,Very pleased with how quickly the reimbursement reached my bank.,Refunds,positive,yes
+E0046,2026-10-06,"After cancellation, which account receives the refund?",Refunds,neutral,yes
+E0047,2026-10-09,How many working days does a refund to a prepaid card take?,Refunds,neutral,yes
+E0048,2026-10-12,Can I request store credit instead of a refund to my card?,Refunds,neutral,yes
+E0049,2026-10-15,The representative closed my ticket without answering the question.,Customer Support,negative,yes
+E0050,2026-10-18,I waited forty minutes for an agent and then the chat disconnected.,Customer Support,negative,yes
+E0051,2026-09-01,Every email gets the same copy-paste reply; I still need actual help.,Customer Support,negative,yes
+E0052,2026-09-04,The customer service team was rude when I reported a missing accessory.,Customer Support,negative,yes
+E0053,2026-09-07,Support refused to explain a serious safety issue and threatened legal action when I followed up.,Customer Support,negative,yes
+E0054,2026-09-10,A friendly agent called back and solved my setup problem in minutes.,Customer Support,positive,yes
+E0055,2026-09-13,Customer care listened carefully and gave me a clear solution.,Customer Support,positive,yes
+E0056,2026-09-16,I got useful guidance from the live chat without any waiting.,Customer Support,positive,yes
+E0057,2026-09-19,The support representative stayed on the call until everything worked.,Customer Support,positive,yes
+E0058,2026-09-22,What are the customer service hours on public holidays?,Customer Support,neutral,yes
+E0059,2026-09-25,Is telephone support available for international customers?,Customer Support,neutral,yes
+E0060,2026-09-28,Where can I find the reference number for a support ticket?,Customer Support,neutral,yes
+E0061,2026-10-01,The glass jar was loose inside a huge box with no padding and arrived shattered.,Packaging,negative,yes
+E0062,2026-10-04,There was a hole in the shipping carton and small parts had fallen out.,Packaging,negative,yes
+E0063,2026-10-07,"The product works, but the outer packaging was crushed and soaked.",Packaging,negative,yes
+E0064,2026-10-10,A fragile item was wrapped in a single sheet of paper. Terrible packing.,Packaging,negative,yes
+E0065,2026-10-13,The seal on the box had already been broken when it arrived.,Packaging,negative,yes
+E0066,2026-10-16,Everything was cushioned properly in recyclable packaging.,Packaging,positive,yes
+E0067,2026-10-19,The protective wrap kept the glass items perfectly intact.,Packaging,positive,yes
+E0068,2026-09-02,"Neat, compact packing with no unnecessary plastic was a nice touch.",Packaging,positive,yes
+E0069,2026-09-05,The parcel was securely sealed and carefully boxed.,Packaging,positive,yes
+E0070,2026-09-08,Do you use recyclable material in your gift boxes?,Packaging,neutral,yes
+E0071,2026-09-11,Can I request minimal packaging for my next order?,Packaging,neutral,yes
+E0072,2026-09-14,Does the package include a tamper-evident seal?,Packaging,neutral,yes
+E0073,2026-09-17,The app freezes whenever I open my saved wishlist.,Website/App,negative,yes
+E0074,2026-09-20,I cannot sign in because the reset-password link keeps returning an error.,Website/App,negative,yes
+E0075,2026-09-23,Your mobile site loses my shopping cart every time I switch pages.,Website/App,negative,yes
+E0076,2026-09-26,"Checkout times out after I enter my address, so I have to start again.",Website/App,negative,yes
+E0077,2026-09-29,The product filters are broken and search results ignore the size I selected.,Website/App,negative,yes
+E0078,2026-10-02,The app is simple to navigate and the search filters actually work.,Website/App,positive,yes
+E0079,2026-10-05,Ordering on the website took less than two minutes.,Website/App,positive,yes
+E0080,2026-10-08,The new account dashboard makes it easy to find earlier purchases.,Website/App,positive,yes
+E0081,2026-10-11,Fast-loading pages and clear menus make browsing pleasant.,Website/App,positive,yes
+E0082,2026-10-14,Is there an Android version of your shopping app?,Website/App,neutral,yes
+E0083,2026-10-17,Can I save more than one address on the website?,Website/App,neutral,yes
+E0084,2026-10-20,Does the web store support guest checkout?,Website/App,neutral,yes
+E0085,2026-09-03,"My card was debited twice for one purchase, but only one order exists.",Payments,negative,yes
+E0086,2026-09-06,The payment gateway fails after OTP verification and the money is still taken.,Payments,negative,yes
+E0087,2026-09-09,I was charged an unexpected transaction fee at the final step.,Payments,negative,yes
+E0088,2026-09-12,UPI showed success but the store insists the order is unpaid.,Payments,negative,yes
+E0089,2026-09-15,"I reported a potentially fraudulent card charge, and no one has investigated it.",Payments,negative,yes
+E0090,2026-09-18,The payment went through on the first try and the receipt arrived instantly.,Payments,positive,yes
+E0091,2026-09-21,UPI checkout was secure and surprisingly quick.,Payments,positive,yes
+E0092,2026-09-24,I could pay with my preferred wallet without extra charges.,Payments,positive,yes
+E0093,2026-09-27,The card transaction was smooth and the confirmation was immediate.,Payments,positive,yes
+E0094,2026-09-30,Do you accept international debit cards for payment?,Payments,neutral,yes
+E0095,2026-10-03,Can an order be split across two payment methods?,Payments,neutral,yes
+E0096,2026-10-06,When is a pending card authorization released?,Payments,neutral,yes
+E0097,2026-10-09,My return pickup has been cancelled twice without anyone contacting me.,Returns,negative,yes
+E0098,2026-10-12,The return portal rejects my order number although the item is eligible.,Returns,negative,yes
+E0099,2026-10-15,"I sent back the wrong-size trousers, but the return was rejected for no reason.",Returns,negative,yes
+E0100,2026-10-18,It is almost impossible to arrange an exchange through your returns page.,Returns,negative,yes
+E0101,2026-09-01,The replacement request is stuck because nobody will book the collection.,Returns,negative,no
+E0102,2026-09-04,Returning the shoes was easy and the courier collected them the next morning.,Returns,positive,no
+E0103,2026-09-07,The exchange for a different size was handled with no fuss.,Returns,positive,no
+E0104,2026-09-10,I appreciated the clear return instructions and prepaid label.,Returns,positive,no
+E0105,2026-09-13,The return pickup was punctual and the process was hassle-free.,Returns,positive,no
+E0106,2026-09-16,How many days do I have to return unopened accessories?,Returns,neutral,no
+E0107,2026-09-19,Is a return pickup available outside major cities?,Returns,neutral,no
+E0108,2026-09-22,May I exchange a gift without the original receipt?,Returns,neutral,no
+E0109,2026-09-25,Loyalty points from three purchases have disappeared from my account.,Other,negative,no
+E0110,2026-09-28,The rewards membership renewed automatically even though I had cancelled it.,Other,negative,no
+E0111,2026-10-01,I keep receiving promotional messages after opting out of the mailing list.,Other,negative,no
+E0112,2026-10-04,My subscription benefits vanished even though this month's fee was paid.,Other,negative,no
+E0113,2026-10-07,The store keeps advertising a membership perk that I cannot access.,Other,negative,no
+E0114,2026-10-10,The loyalty rewards are useful and the points are easy to redeem.,Other,positive,no
+E0115,2026-10-13,I love the early access perks from the membership programme.,Other,positive,no
+E0116,2026-10-16,Their monthly newsletter has practical suggestions rather than spam.,Other,positive,no
+E0117,2026-10-19,Renewing my subscription was simple and the added benefits are great.,Other,positive,no
+E0118,2026-09-02,When do loyalty reward points expire?,Other,neutral,no
+E0119,2026-09-05,Can I pause a paid membership for one month?,Other,neutral,no
+E0120,2026-09-08,Where do I change my marketing email preferences?,Other,neutral,no

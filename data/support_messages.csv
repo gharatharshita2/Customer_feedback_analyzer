@@ -1,0 +1,60 @@
+message_id,ticket_id,created_at,sender_role,channel,message
+M-0001,T-1000,2026-10-01 09:00:00,customer,email,I am still waiting for the parcel that was promised for Monday.
+M-0002,T-1000,2026-10-01 09:00:00,agent,email,Thank you for contacting support. We are investigating your request.
+M-0003,T-1001,2026-10-02 09:13:00,customer,live_chat,Tracking says delivered but it never arrived at my address.
+M-0004,T-1002,2026-10-03 09:26:00,customer,web_form,Please confirm whether the courier has dispatched my order.
+M-0005,T-1003,2026-10-04 09:39:00,customer,phone,"Delivery arrived early, thank you for arranging it."
+M-0006,T-1010,2026-10-05 09:00:00,customer,email,The charger broke after two days and no longer switches on.
+M-0007,T-1010,2026-10-05 09:00:00,agent,email,Thank you for contacting support. We are investigating your request.
+M-0008,T-1011,2026-10-06 09:13:00,customer,live_chat,My headphones have an electrical buzzing sound when charging.
+M-0009,T-1012,2026-10-07 09:26:00,customer,web_form,The replacement item is excellent and working perfectly.
+M-0010,T-1013,2026-10-08 09:39:00,customer,phone,Can you tell me whether this cable is waterproof?
+M-0011,T-1020,2026-10-09 09:00:00,customer,email,The coupon stopped working at checkout and the price went up.
+M-0012,T-1020,2026-10-09 09:00:00,agent,email,Thank you for contacting support. We are investigating your request.
+M-0013,T-1021,2026-10-10 09:13:00,customer,live_chat,Why is the final price higher than the price shown yesterday?
+M-0014,T-1022,2026-10-11 09:26:00,customer,web_form,"Thanks for the student discount, it was very helpful."
+M-0015,T-1023,2026-10-12 09:39:00,customer,phone,Is the seasonal pricing valid for existing customers?
+M-0016,T-1030,2026-10-13 09:00:00,customer,email,My refund has been pending for three weeks and I need an update.
+M-0017,T-1030,2026-10-13 09:00:00,agent,email,Thank you for contacting support. We are investigating your request.
+M-0018,T-1031,2026-10-14 09:13:00,customer,live_chat,I was promised a full refund but received only half.
+M-0019,T-1032,2026-10-15 09:26:00,customer,web_form,"The refund reached my account quickly, thanks."
+M-0020,T-1033,2026-10-16 09:39:00,customer,phone,How can I track the refund status?
+M-0021,T-1040,2026-10-17 09:00:00,customer,email,I have emailed support four times without a response.
+M-0022,T-1040,2026-10-17 09:00:00,agent,email,Thank you for contacting support. We are investigating your request.
+M-0023,T-1041,2026-10-18 09:13:00,customer,live_chat,The support agent was rude when I reported my issue.
+M-0024,T-1042,2026-10-19 09:26:00,customer,web_form,Your team resolved my issue quickly and politely.
+M-0025,T-1043,2026-10-20 09:39:00,customer,phone,What is the best time to contact customer service?
+M-0026,T-1050,2026-10-21 09:00:00,customer,email,The glass item arrived in a damaged box with no padding.
+M-0027,T-1050,2026-10-21 09:00:00,agent,email,Thank you for contacting support. We are investigating your request.
+M-0028,T-1051,2026-10-22 09:13:00,customer,live_chat,The packaging was torn when the courier delivered the item.
+M-0029,T-1052,2026-10-23 09:26:00,customer,web_form,I appreciate the recyclable protective packaging.
+M-0030,T-1053,2026-10-24 09:39:00,customer,phone,Can you use less plastic in future packaging?
+M-0031,T-1060,2026-10-25 09:00:00,customer,email,The mobile app crashes every time I click checkout.
+M-0032,T-1060,2026-10-25 09:00:00,agent,email,Thank you for contacting support. We are investigating your request.
+M-0033,T-1061,2026-10-26 09:13:00,customer,live_chat,My shopping cart disappeared when I logged in again.
+M-0034,T-1062,2026-10-27 09:26:00,customer,web_form,The website is easy to use and loads quickly.
+M-0035,T-1063,2026-10-28 09:39:00,customer,phone,Does the mobile app support dark mode?
+M-0036,T-1070,2026-10-01 09:00:00,customer,email,My card was charged twice for one transaction.
+M-0037,T-1070,2026-10-01 09:00:00,agent,email,Thank you for contacting support. We are investigating your request.
+M-0038,T-1071,2026-10-02 09:13:00,customer,live_chat,The payment failed but the bank deducted the money.
+M-0039,T-1072,2026-10-03 09:26:00,customer,web_form,UPI payment was fast and easy today.
+M-0040,T-1073,2026-10-04 09:39:00,customer,phone,Do you accept international bank cards?
+M-0041,T-1080,2026-10-05 09:00:00,customer,email,My return pickup has been cancelled twice.
+M-0042,T-1080,2026-10-05 09:00:00,agent,email,Thank you for contacting support. We are investigating your request.
+M-0043,T-1081,2026-10-06 09:13:00,customer,live_chat,The returns portal says my order does not exist.
+M-0044,T-1082,2026-10-07 09:26:00,customer,web_form,Returning the jacket was easy and the pickup was on time.
+M-0045,T-1083,2026-10-08 09:39:00,customer,phone,Can I return a gifted item without a receipt?
+M-0046,T-1090,2026-10-09 09:00:00,customer,email,My loyalty points disappeared after renewing my membership.
+M-0047,T-1090,2026-10-09 09:00:00,agent,email,Thank you for contacting support. We are investigating your request.
+M-0048,T-1091,2026-10-10 09:13:00,customer,live_chat,Please stop promotional emails after I opted out.
+M-0049,T-1092,2026-10-11 09:26:00,customer,web_form,"The membership benefits are excellent, thank you."
+M-0050,T-1093,2026-10-12 09:39:00,customer,phone,How do I pause my subscription for one month?
+M-0051,T-2000,2026-10-12 15:30:00,customer,web_form,"The product is fantastic, but the delivery was five days late."
+M-0052,T-2001,2026-10-13 15:30:00,customer,email,"The packaging was perfect, although my item was broken on arrival."
+M-0053,T-2002,2026-10-14 15:30:00,customer,live_chat,My charger overheated and started smoking; I am worried about fire hazard.
+M-0054,T-2003,2026-10-15 15:30:00,customer,email,I will take legal action because my card information was stolen.
+M-0055,T-2004,2026-10-16 15:30:00,customer,live_chat,Your support team fixed the issue but the parcel is still missing.
+M-0056,T-2005,2026-10-17 15:30:00,customer,phone,The loyalty points vanished for the third time this month.
+M-0057,T-2006,2026-10-18 15:30:00,customer,web_form,The warranty renewal caused an unexpected recurring charge.
+M-0058,T-2007,2026-10-19 15:30:00,customer,email,The product is great but the refund has been delayed.
+M-0059,T-1000,2026-10-01 09:00:00,customer,email,I am still waiting for the parcel that was promised for Monday.

@@ -1,0 +1,11 @@
+id,date,source_type,ticket_id,sender_role,channel,text
+F-001,2026-10-06,Review,,,,The product quality is excellent and I love it.
+F-002,2026-10-07,Review,,,,The shoes are comfortable but the delivery arrived late.
+F-003,2026-10-08,Review,,,,The checkout price was higher than the advertised price.
+F-004,2026-10-09,Review,,,,"Very quick shipping, thank you!"
+M-100,2026-10-10,Support message,T-100,customer,chat,My refund is still missing after 14 days.
+M-101,2026-10-10,Support message,T-100,agent,chat,We are looking into your request.
+M-102,2026-10-11,Support message,T-102,customer,email,My charger overheated and nearly caught fire.
+M-103,2026-10-11,Support message,T-103,customer,chat,The app keeps crashing when I try to order.
+M-104,2026-10-12,Support message,T-104,customer,email,Delivery tracking shows delivered but nothing arrived.
+F-005,2026-10-13,Review,,,,The return pickup was smooth and easy.
