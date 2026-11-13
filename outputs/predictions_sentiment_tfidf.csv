@@ -1,0 +1,101 @@
+id,text,actual,predicted,task,model
+E0001,"The shoes are lovely, but my parcel showed up five days after the promised delivery window.",negative,negative,sentiment,TF-IDF + Logistic Regression
+E0002,Tracking said delivered even though nothing was at my door. I spent hours contacting the courier.,negative,negative,sentiment,TF-IDF + Logistic Regression
+E0003,Please stop using this shipping partner. Three consecutive orders have arrived late.,negative,negative,sentiment,TF-IDF + Logistic Regression
+E0004,"The books were fine, yet the courier left the package out in the rain without telling me.",negative,negative,sentiment,TF-IDF + Logistic Regression
+E0005,I paid for express shipping and it took longer than the free option. Really disappointing.,negative,negative,sentiment,TF-IDF + Logistic Regression
+E0006,"My order reached me a day early, and the delivery person called before arriving.",positive,negative,sentiment,TF-IDF + Logistic Regression
+E0007,Tracking updates were accurate all the way from dispatch to my doorstep.,positive,negative,sentiment,TF-IDF + Logistic Regression
+E0008,Fast shipping to a remote address. Everything arrived when the store said it would.,positive,positive,sentiment,TF-IDF + Logistic Regression
+E0009,The courier handled the fragile parcel carefully and the delivery was right on schedule.,positive,positive,sentiment,TF-IDF + Logistic Regression
+E0010,Can I change the delivery address after an order has been dispatched?,neutral,negative,sentiment,TF-IDF + Logistic Regression
+E0011,How long does shipping to a rural postcode normally take?,neutral,positive,sentiment,TF-IDF + Logistic Regression
+E0012,Is there a way to request delivery on a Saturday?,neutral,positive,sentiment,TF-IDF + Logistic Regression
+E0013,The charger stopped working on day three and the connector feels loose.,negative,negative,sentiment,TF-IDF + Logistic Regression
+E0014,"Shipping was quick, but the blender motor started rattling after a single use.",negative,negative,sentiment,TF-IDF + Logistic Regression
+E0015,The stitching on the jacket came apart almost immediately. This is not acceptable quality.,negative,positive,sentiment,TF-IDF + Logistic Regression
+E0016,My new speaker makes a buzzing sound even at low volume.,negative,negative,sentiment,TF-IDF + Logistic Regression
+E0017,"The product looked solid in pictures, but the plastic cracked when I opened the lid.",negative,positive,sentiment,TF-IDF + Logistic Regression
+E0018,The fabric feels premium and has held up well after repeated washing.,positive,negative,sentiment,TF-IDF + Logistic Regression
+E0019,Excellent build quality; the headphones are comfortable and sound clear.,positive,positive,sentiment,TF-IDF + Logistic Regression
+E0020,"After three months of daily use, the kettle still works perfectly.",positive,positive,sentiment,TF-IDF + Logistic Regression
+E0021,Good materials and neat finishing on the bag. It feels durable.,positive,positive,sentiment,TF-IDF + Logistic Regression
+E0022,Does this bottle contain any BPA in the plastic parts?,neutral,neutral,sentiment,TF-IDF + Logistic Regression
+E0023,Is the laptop stand made from aluminium or painted steel?,neutral,neutral,sentiment,TF-IDF + Logistic Regression
+E0024,What is the expected battery lifespan for this device?,neutral,neutral,sentiment,TF-IDF + Logistic Regression
+E0025,The checkout total was higher than the price advertised on the product page.,negative,positive,sentiment,TF-IDF + Logistic Regression
+E0026,"For what I received, the amount charged feels excessive.",negative,neutral,sentiment,TF-IDF + Logistic Regression
+E0027,A promotional code was shown on the banner but was rejected at checkout.,negative,positive,sentiment,TF-IDF + Logistic Regression
+E0028,Prices jumped overnight with no clear explanation. I will probably shop elsewhere.,negative,negative,sentiment,TF-IDF + Logistic Regression
+E0029,The discount disappears the moment I add the item to my basket.,negative,negative,sentiment,TF-IDF + Logistic Regression
+E0030,Great value compared with other stores selling the same model.,positive,positive,sentiment,TF-IDF + Logistic Regression
+E0031,The seasonal discount made this an affordable purchase.,positive,neutral,sentiment,TF-IDF + Logistic Regression
+E0032,Fair pricing for the quality and no hidden extras at payment.,positive,negative,sentiment,TF-IDF + Logistic Regression
+E0033,I found the bundle deal genuinely worth the money.,positive,negative,sentiment,TF-IDF + Logistic Regression
+E0034,Is there a price-match policy against nearby retailers?,neutral,neutral,sentiment,TF-IDF + Logistic Regression
+E0035,When do student discounts become available?,neutral,neutral,sentiment,TF-IDF + Logistic Regression
+E0036,Do listed prices already include the local sales tax?,neutral,negative,sentiment,TF-IDF + Logistic Regression
+E0037,It's been sixteen days and the refund still hasn't appeared in my account.,negative,negative,sentiment,TF-IDF + Logistic Regression
+E0038,"I received an email saying refunded, but my bank statement shows nothing.",negative,negative,sentiment,TF-IDF + Logistic Regression
+E0039,The amount returned was less than what I paid and nobody can explain the deduction.,negative,neutral,sentiment,TF-IDF + Logistic Regression
+E0040,Please process my refund rather than sending another automated acknowledgement.,negative,negative,sentiment,TF-IDF + Logistic Regression
+E0041,"They approved reimbursement last week, then stopped answering my messages.",negative,negative,sentiment,TF-IDF + Logistic Regression
+E0042,Money was back on my card two days after the cancellation.,positive,negative,sentiment,TF-IDF + Logistic Regression
+E0043,"The refund process was straightforward, and I got the complete amount.",positive,positive,sentiment,TF-IDF + Logistic Regression
+E0044,They resolved my refund request without making me chase anyone.,positive,positive,sentiment,TF-IDF + Logistic Regression
+E0045,Very pleased with how quickly the reimbursement reached my bank.,positive,negative,sentiment,TF-IDF + Logistic Regression
+E0046,"After cancellation, which account receives the refund?",neutral,negative,sentiment,TF-IDF + Logistic Regression
+E0047,How many working days does a refund to a prepaid card take?,neutral,positive,sentiment,TF-IDF + Logistic Regression
+E0048,Can I request store credit instead of a refund to my card?,neutral,negative,sentiment,TF-IDF + Logistic Regression
+E0049,The representative closed my ticket without answering the question.,negative,negative,sentiment,TF-IDF + Logistic Regression
+E0050,I waited forty minutes for an agent and then the chat disconnected.,negative,negative,sentiment,TF-IDF + Logistic Regression
+E0051,Every email gets the same copy-paste reply; I still need actual help.,negative,negative,sentiment,TF-IDF + Logistic Regression
+E0052,The customer service team was rude when I reported a missing accessory.,negative,neutral,sentiment,TF-IDF + Logistic Regression
+E0053,Support refused to explain a serious safety issue and threatened legal action when I followed up.,negative,positive,sentiment,TF-IDF + Logistic Regression
+E0054,A friendly agent called back and solved my setup problem in minutes.,positive,negative,sentiment,TF-IDF + Logistic Regression
+E0055,Customer care listened carefully and gave me a clear solution.,positive,positive,sentiment,TF-IDF + Logistic Regression
+E0056,I got useful guidance from the live chat without any waiting.,positive,positive,sentiment,TF-IDF + Logistic Regression
+E0057,The support representative stayed on the call until everything worked.,positive,positive,sentiment,TF-IDF + Logistic Regression
+E0058,What are the customer service hours on public holidays?,neutral,neutral,sentiment,TF-IDF + Logistic Regression
+E0059,Is telephone support available for international customers?,neutral,neutral,sentiment,TF-IDF + Logistic Regression
+E0060,Where can I find the reference number for a support ticket?,neutral,neutral,sentiment,TF-IDF + Logistic Regression
+E0061,The glass jar was loose inside a huge box with no padding and arrived shattered.,negative,negative,sentiment,TF-IDF + Logistic Regression
+E0062,There was a hole in the shipping carton and small parts had fallen out.,negative,positive,sentiment,TF-IDF + Logistic Regression
+E0063,"The product works, but the outer packaging was crushed and soaked.",negative,positive,sentiment,TF-IDF + Logistic Regression
+E0064,A fragile item was wrapped in a single sheet of paper. Terrible packing.,negative,negative,sentiment,TF-IDF + Logistic Regression
+E0065,The seal on the box had already been broken when it arrived.,negative,negative,sentiment,TF-IDF + Logistic Regression
+E0066,Everything was cushioned properly in recyclable packaging.,positive,positive,sentiment,TF-IDF + Logistic Regression
+E0067,The protective wrap kept the glass items perfectly intact.,positive,positive,sentiment,TF-IDF + Logistic Regression
+E0068,"Neat, compact packing with no unnecessary plastic was a nice touch.",positive,negative,sentiment,TF-IDF + Logistic Regression
+E0069,The parcel was securely sealed and carefully boxed.,positive,negative,sentiment,TF-IDF + Logistic Regression
+E0070,Do you use recyclable material in your gift boxes?,neutral,neutral,sentiment,TF-IDF + Logistic Regression
+E0071,Can I request minimal packaging for my next order?,neutral,negative,sentiment,TF-IDF + Logistic Regression
+E0072,Does the package include a tamper-evident seal?,neutral,neutral,sentiment,TF-IDF + Logistic Regression
+E0073,The app freezes whenever I open my saved wishlist.,negative,negative,sentiment,TF-IDF + Logistic Regression
+E0074,I cannot sign in because the reset-password link keeps returning an error.,negative,negative,sentiment,TF-IDF + Logistic Regression
+E0075,Your mobile site loses my shopping cart every time I switch pages.,negative,negative,sentiment,TF-IDF + Logistic Regression
+E0076,"Checkout times out after I enter my address, so I have to start again.",negative,negative,sentiment,TF-IDF + Logistic Regression
+E0077,The product filters are broken and search results ignore the size I selected.,negative,negative,sentiment,TF-IDF + Logistic Regression
+E0078,The app is simple to navigate and the search filters actually work.,positive,negative,sentiment,TF-IDF + Logistic Regression
+E0079,Ordering on the website took less than two minutes.,positive,positive,sentiment,TF-IDF + Logistic Regression
+E0080,The new account dashboard makes it easy to find earlier purchases.,positive,positive,sentiment,TF-IDF + Logistic Regression
+E0081,Fast-loading pages and clear menus make browsing pleasant.,positive,positive,sentiment,TF-IDF + Logistic Regression
+E0082,Is there an Android version of your shopping app?,neutral,neutral,sentiment,TF-IDF + Logistic Regression
+E0083,Can I save more than one address on the website?,neutral,positive,sentiment,TF-IDF + Logistic Regression
+E0084,Does the web store support guest checkout?,neutral,neutral,sentiment,TF-IDF + Logistic Regression
+E0085,"My card was debited twice for one purchase, but only one order exists.",negative,negative,sentiment,TF-IDF + Logistic Regression
+E0086,The payment gateway fails after OTP verification and the money is still taken.,negative,negative,sentiment,TF-IDF + Logistic Regression
+E0087,I was charged an unexpected transaction fee at the final step.,negative,negative,sentiment,TF-IDF + Logistic Regression
+E0088,UPI showed success but the store insists the order is unpaid.,negative,negative,sentiment,TF-IDF + Logistic Regression
+E0089,"I reported a potentially fraudulent card charge, and no one has investigated it.",negative,negative,sentiment,TF-IDF + Logistic Regression
+E0090,The payment went through on the first try and the receipt arrived instantly.,positive,negative,sentiment,TF-IDF + Logistic Regression
+E0091,UPI checkout was secure and surprisingly quick.,positive,negative,sentiment,TF-IDF + Logistic Regression
+E0092,I could pay with my preferred wallet without extra charges.,positive,negative,sentiment,TF-IDF + Logistic Regression
+E0093,The card transaction was smooth and the confirmation was immediate.,positive,positive,sentiment,TF-IDF + Logistic Regression
+E0094,Do you accept international debit cards for payment?,neutral,positive,sentiment,TF-IDF + Logistic Regression
+E0095,Can an order be split across two payment methods?,neutral,negative,sentiment,TF-IDF + Logistic Regression
+E0096,When is a pending card authorization released?,neutral,neutral,sentiment,TF-IDF + Logistic Regression
+E0097,My return pickup has been cancelled twice without anyone contacting me.,negative,negative,sentiment,TF-IDF + Logistic Regression
+E0098,The return portal rejects my order number although the item is eligible.,negative,negative,sentiment,TF-IDF + Logistic Regression
+E0099,"I sent back the wrong-size trousers, but the return was rejected for no reason.",negative,negative,sentiment,TF-IDF + Logistic Regression
+E0100,It is almost impossible to arrange an exchange through your returns page.,negative,positive,sentiment,TF-IDF + Logistic Regression

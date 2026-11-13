@@ -1,0 +1,128 @@
+id,task,model,text,actual,predicted,why_the_model_failed
+E0005,topic,TF-IDF + Logistic Regression,I paid for express shipping and it took longer than the free option. Really disappointing.,Delivery,Product Quality,REVIEW AND EXPLAIN THIS ERROR
+E0011,topic,TF-IDF + Logistic Regression,How long does shipping to a rural postcode normally take?,Delivery,Website/App,REVIEW AND EXPLAIN THIS ERROR
+E0012,topic,TF-IDF + Logistic Regression,Is there a way to request delivery on a Saturday?,Delivery,Pricing,REVIEW AND EXPLAIN THIS ERROR
+E0013,topic,TF-IDF + Logistic Regression,The charger stopped working on day three and the connector feels loose.,Product Quality,Delivery,REVIEW AND EXPLAIN THIS ERROR
+E0015,topic,TF-IDF + Logistic Regression,The stitching on the jacket came apart almost immediately. This is not acceptable quality.,Product Quality,Payments,REVIEW AND EXPLAIN THIS ERROR
+E0016,topic,TF-IDF + Logistic Regression,My new speaker makes a buzzing sound even at low volume.,Product Quality,Delivery,REVIEW AND EXPLAIN THIS ERROR
+E0022,topic,TF-IDF + Logistic Regression,Does this bottle contain any BPA in the plastic parts?,Product Quality,Website/App,REVIEW AND EXPLAIN THIS ERROR
+E0023,topic,TF-IDF + Logistic Regression,Is the laptop stand made from aluminium or painted steel?,Product Quality,Returns,REVIEW AND EXPLAIN THIS ERROR
+E0024,topic,TF-IDF + Logistic Regression,What is the expected battery lifespan for this device?,Product Quality,Returns,REVIEW AND EXPLAIN THIS ERROR
+E0026,topic,TF-IDF + Logistic Regression,"For what I received, the amount charged feels excessive.",Pricing,Product Quality,REVIEW AND EXPLAIN THIS ERROR
+E0027,topic,TF-IDF + Logistic Regression,A promotional code was shown on the banner but was rejected at checkout.,Pricing,Website/App,REVIEW AND EXPLAIN THIS ERROR
+E0029,topic,TF-IDF + Logistic Regression,The discount disappears the moment I add the item to my basket.,Pricing,Product Quality,REVIEW AND EXPLAIN THIS ERROR
+E0032,topic,TF-IDF + Logistic Regression,Fair pricing for the quality and no hidden extras at payment.,Pricing,Product Quality,REVIEW AND EXPLAIN THIS ERROR
+E0033,topic,TF-IDF + Logistic Regression,I found the bundle deal genuinely worth the money.,Pricing,Packaging,REVIEW AND EXPLAIN THIS ERROR
+E0036,topic,TF-IDF + Logistic Regression,Do listed prices already include the local sales tax?,Pricing,Packaging,REVIEW AND EXPLAIN THIS ERROR
+E0038,topic,TF-IDF + Logistic Regression,"I received an email saying refunded, but my bank statement shows nothing.",Refunds,Delivery,REVIEW AND EXPLAIN THIS ERROR
+E0039,topic,TF-IDF + Logistic Regression,The amount returned was less than what I paid and nobody can explain the deduction.,Refunds,Returns,REVIEW AND EXPLAIN THIS ERROR
+E0041,topic,TF-IDF + Logistic Regression,"They approved reimbursement last week, then stopped answering my messages.",Refunds,Delivery,REVIEW AND EXPLAIN THIS ERROR
+E0042,topic,TF-IDF + Logistic Regression,Money was back on my card two days after the cancellation.,Refunds,Product Quality,REVIEW AND EXPLAIN THIS ERROR
+E0043,topic,TF-IDF + Logistic Regression,"The refund process was straightforward, and I got the complete amount.",Refunds,Returns,REVIEW AND EXPLAIN THIS ERROR
+E0045,topic,TF-IDF + Logistic Regression,Very pleased with how quickly the reimbursement reached my bank.,Refunds,Pricing,REVIEW AND EXPLAIN THIS ERROR
+E0047,topic,TF-IDF + Logistic Regression,How many working days does a refund to a prepaid card take?,Refunds,Website/App,REVIEW AND EXPLAIN THIS ERROR
+E0049,topic,TF-IDF + Logistic Regression,The representative closed my ticket without answering the question.,Customer Support,Delivery,REVIEW AND EXPLAIN THIS ERROR
+E0051,topic,TF-IDF + Logistic Regression,Every email gets the same copy-paste reply; I still need actual help.,Customer Support,Packaging,REVIEW AND EXPLAIN THIS ERROR
+E0053,topic,TF-IDF + Logistic Regression,Support refused to explain a serious safety issue and threatened legal action when I followed up.,Customer Support,Website/App,REVIEW AND EXPLAIN THIS ERROR
+E0055,topic,TF-IDF + Logistic Regression,Customer care listened carefully and gave me a clear solution.,Customer Support,Delivery,REVIEW AND EXPLAIN THIS ERROR
+E0056,topic,TF-IDF + Logistic Regression,I got useful guidance from the live chat without any waiting.,Customer Support,Other,REVIEW AND EXPLAIN THIS ERROR
+E0060,topic,TF-IDF + Logistic Regression,Where can I find the reference number for a support ticket?,Customer Support,Delivery,REVIEW AND EXPLAIN THIS ERROR
+E0062,topic,TF-IDF + Logistic Regression,There was a hole in the shipping carton and small parts had fallen out.,Packaging,Pricing,REVIEW AND EXPLAIN THIS ERROR
+E0063,topic,TF-IDF + Logistic Regression,"The product works, but the outer packaging was crushed and soaked.",Packaging,Product Quality,REVIEW AND EXPLAIN THIS ERROR
+E0066,topic,TF-IDF + Logistic Regression,Everything was cushioned properly in recyclable packaging.,Packaging,Customer Support,REVIEW AND EXPLAIN THIS ERROR
+E0067,topic,TF-IDF + Logistic Regression,The protective wrap kept the glass items perfectly intact.,Packaging,Product Quality,REVIEW AND EXPLAIN THIS ERROR
+E0068,topic,TF-IDF + Logistic Regression,"Neat, compact packing with no unnecessary plastic was a nice touch.",Packaging,Pricing,REVIEW AND EXPLAIN THIS ERROR
+E0070,topic,TF-IDF + Logistic Regression,Do you use recyclable material in your gift boxes?,Packaging,Delivery,REVIEW AND EXPLAIN THIS ERROR
+E0071,topic,TF-IDF + Logistic Regression,Can I request minimal packaging for my next order?,Packaging,Delivery,REVIEW AND EXPLAIN THIS ERROR
+E0072,topic,TF-IDF + Logistic Regression,Does the package include a tamper-evident seal?,Packaging,Website/App,REVIEW AND EXPLAIN THIS ERROR
+E0075,topic,TF-IDF + Logistic Regression,Your mobile site loses my shopping cart every time I switch pages.,Website/App,Delivery,REVIEW AND EXPLAIN THIS ERROR
+E0077,topic,TF-IDF + Logistic Regression,The product filters are broken and search results ignore the size I selected.,Website/App,Product Quality,REVIEW AND EXPLAIN THIS ERROR
+E0081,topic,TF-IDF + Logistic Regression,Fast-loading pages and clear menus make browsing pleasant.,Website/App,Returns,REVIEW AND EXPLAIN THIS ERROR
+E0082,topic,TF-IDF + Logistic Regression,Is there an Android version of your shopping app?,Website/App,Pricing,REVIEW AND EXPLAIN THIS ERROR
+E0086,topic,TF-IDF + Logistic Regression,The payment gateway fails after OTP verification and the money is still taken.,Payments,Product Quality,REVIEW AND EXPLAIN THIS ERROR
+E0088,topic,TF-IDF + Logistic Regression,UPI showed success but the store insists the order is unpaid.,Payments,Website/App,REVIEW AND EXPLAIN THIS ERROR
+E0089,topic,TF-IDF + Logistic Regression,"I reported a potentially fraudulent card charge, and no one has investigated it.",Payments,Refunds,REVIEW AND EXPLAIN THIS ERROR
+E0090,topic,TF-IDF + Logistic Regression,The payment went through on the first try and the receipt arrived instantly.,Payments,Delivery,REVIEW AND EXPLAIN THIS ERROR
+E0091,topic,TF-IDF + Logistic Regression,UPI checkout was secure and surprisingly quick.,Payments,Website/App,REVIEW AND EXPLAIN THIS ERROR
+E0092,topic,TF-IDF + Logistic Regression,I could pay with my preferred wallet without extra charges.,Payments,Pricing,REVIEW AND EXPLAIN THIS ERROR
+E0093,topic,TF-IDF + Logistic Regression,The card transaction was smooth and the confirmation was immediate.,Payments,Packaging,REVIEW AND EXPLAIN THIS ERROR
+E0095,topic,TF-IDF + Logistic Regression,Can an order be split across two payment methods?,Payments,Delivery,REVIEW AND EXPLAIN THIS ERROR
+E0096,topic,TF-IDF + Logistic Regression,When is a pending card authorization released?,Payments,Delivery,REVIEW AND EXPLAIN THIS ERROR
+E0004,topic,MiniLM embeddings + Logistic Regression,"The books were fine, yet the courier left the package out in the rain without telling me.",Delivery,Packaging,REVIEW AND EXPLAIN THIS ERROR
+E0014,topic,MiniLM embeddings + Logistic Regression,"Shipping was quick, but the blender motor started rattling after a single use.",Product Quality,Delivery,REVIEW AND EXPLAIN THIS ERROR
+E0016,topic,MiniLM embeddings + Logistic Regression,My new speaker makes a buzzing sound even at low volume.,Product Quality,Customer Support,REVIEW AND EXPLAIN THIS ERROR
+E0022,topic,MiniLM embeddings + Logistic Regression,Does this bottle contain any BPA in the plastic parts?,Product Quality,Website/App,REVIEW AND EXPLAIN THIS ERROR
+E0023,topic,MiniLM embeddings + Logistic Regression,Is the laptop stand made from aluminium or painted steel?,Product Quality,Pricing,REVIEW AND EXPLAIN THIS ERROR
+E0026,topic,MiniLM embeddings + Logistic Regression,"For what I received, the amount charged feels excessive.",Pricing,Payments,REVIEW AND EXPLAIN THIS ERROR
+E0027,topic,MiniLM embeddings + Logistic Regression,A promotional code was shown on the banner but was rejected at checkout.,Pricing,Returns,REVIEW AND EXPLAIN THIS ERROR
+E0045,topic,MiniLM embeddings + Logistic Regression,Very pleased with how quickly the reimbursement reached my bank.,Refunds,Payments,REVIEW AND EXPLAIN THIS ERROR
+E0063,topic,MiniLM embeddings + Logistic Regression,"The product works, but the outer packaging was crushed and soaked.",Packaging,Product Quality,REVIEW AND EXPLAIN THIS ERROR
+E0071,topic,MiniLM embeddings + Logistic Regression,Can I request minimal packaging for my next order?,Packaging,Delivery,REVIEW AND EXPLAIN THIS ERROR
+E0079,topic,MiniLM embeddings + Logistic Regression,Ordering on the website took less than two minutes.,Website/App,Delivery,REVIEW AND EXPLAIN THIS ERROR
+E0088,topic,MiniLM embeddings + Logistic Regression,UPI showed success but the store insists the order is unpaid.,Payments,Returns,REVIEW AND EXPLAIN THIS ERROR
+E0091,topic,MiniLM embeddings + Logistic Regression,UPI checkout was secure and surprisingly quick.,Payments,Website/App,REVIEW AND EXPLAIN THIS ERROR
+E0096,topic,MiniLM embeddings + Logistic Regression,When is a pending card authorization released?,Payments,Delivery,REVIEW AND EXPLAIN THIS ERROR
+E0097,topic,MiniLM embeddings + Logistic Regression,My return pickup has been cancelled twice without anyone contacting me.,Returns,Refunds,REVIEW AND EXPLAIN THIS ERROR
+E0006,sentiment,TF-IDF + Logistic Regression,"My order reached me a day early, and the delivery person called before arriving.",positive,negative,REVIEW AND EXPLAIN THIS ERROR
+E0007,sentiment,TF-IDF + Logistic Regression,Tracking updates were accurate all the way from dispatch to my doorstep.,positive,negative,REVIEW AND EXPLAIN THIS ERROR
+E0010,sentiment,TF-IDF + Logistic Regression,Can I change the delivery address after an order has been dispatched?,neutral,negative,REVIEW AND EXPLAIN THIS ERROR
+E0011,sentiment,TF-IDF + Logistic Regression,How long does shipping to a rural postcode normally take?,neutral,positive,REVIEW AND EXPLAIN THIS ERROR
+E0012,sentiment,TF-IDF + Logistic Regression,Is there a way to request delivery on a Saturday?,neutral,positive,REVIEW AND EXPLAIN THIS ERROR
+E0015,sentiment,TF-IDF + Logistic Regression,The stitching on the jacket came apart almost immediately. This is not acceptable quality.,negative,positive,REVIEW AND EXPLAIN THIS ERROR
+E0017,sentiment,TF-IDF + Logistic Regression,"The product looked solid in pictures, but the plastic cracked when I opened the lid.",negative,positive,REVIEW AND EXPLAIN THIS ERROR
+E0018,sentiment,TF-IDF + Logistic Regression,The fabric feels premium and has held up well after repeated washing.,positive,negative,REVIEW AND EXPLAIN THIS ERROR
+E0025,sentiment,TF-IDF + Logistic Regression,The checkout total was higher than the price advertised on the product page.,negative,positive,REVIEW AND EXPLAIN THIS ERROR
+E0026,sentiment,TF-IDF + Logistic Regression,"For what I received, the amount charged feels excessive.",negative,neutral,REVIEW AND EXPLAIN THIS ERROR
+E0027,sentiment,TF-IDF + Logistic Regression,A promotional code was shown on the banner but was rejected at checkout.,negative,positive,REVIEW AND EXPLAIN THIS ERROR
+E0031,sentiment,TF-IDF + Logistic Regression,The seasonal discount made this an affordable purchase.,positive,neutral,REVIEW AND EXPLAIN THIS ERROR
+E0032,sentiment,TF-IDF + Logistic Regression,Fair pricing for the quality and no hidden extras at payment.,positive,negative,REVIEW AND EXPLAIN THIS ERROR
+E0033,sentiment,TF-IDF + Logistic Regression,I found the bundle deal genuinely worth the money.,positive,negative,REVIEW AND EXPLAIN THIS ERROR
+E0036,sentiment,TF-IDF + Logistic Regression,Do listed prices already include the local sales tax?,neutral,negative,REVIEW AND EXPLAIN THIS ERROR
+E0039,sentiment,TF-IDF + Logistic Regression,The amount returned was less than what I paid and nobody can explain the deduction.,negative,neutral,REVIEW AND EXPLAIN THIS ERROR
+E0042,sentiment,TF-IDF + Logistic Regression,Money was back on my card two days after the cancellation.,positive,negative,REVIEW AND EXPLAIN THIS ERROR
+E0045,sentiment,TF-IDF + Logistic Regression,Very pleased with how quickly the reimbursement reached my bank.,positive,negative,REVIEW AND EXPLAIN THIS ERROR
+E0046,sentiment,TF-IDF + Logistic Regression,"After cancellation, which account receives the refund?",neutral,negative,REVIEW AND EXPLAIN THIS ERROR
+E0047,sentiment,TF-IDF + Logistic Regression,How many working days does a refund to a prepaid card take?,neutral,positive,REVIEW AND EXPLAIN THIS ERROR
+E0048,sentiment,TF-IDF + Logistic Regression,Can I request store credit instead of a refund to my card?,neutral,negative,REVIEW AND EXPLAIN THIS ERROR
+E0052,sentiment,TF-IDF + Logistic Regression,The customer service team was rude when I reported a missing accessory.,negative,neutral,REVIEW AND EXPLAIN THIS ERROR
+E0053,sentiment,TF-IDF + Logistic Regression,Support refused to explain a serious safety issue and threatened legal action when I followed up.,negative,positive,REVIEW AND EXPLAIN THIS ERROR
+E0054,sentiment,TF-IDF + Logistic Regression,A friendly agent called back and solved my setup problem in minutes.,positive,negative,REVIEW AND EXPLAIN THIS ERROR
+E0062,sentiment,TF-IDF + Logistic Regression,There was a hole in the shipping carton and small parts had fallen out.,negative,positive,REVIEW AND EXPLAIN THIS ERROR
+E0063,sentiment,TF-IDF + Logistic Regression,"The product works, but the outer packaging was crushed and soaked.",negative,positive,REVIEW AND EXPLAIN THIS ERROR
+E0068,sentiment,TF-IDF + Logistic Regression,"Neat, compact packing with no unnecessary plastic was a nice touch.",positive,negative,REVIEW AND EXPLAIN THIS ERROR
+E0069,sentiment,TF-IDF + Logistic Regression,The parcel was securely sealed and carefully boxed.,positive,negative,REVIEW AND EXPLAIN THIS ERROR
+E0071,sentiment,TF-IDF + Logistic Regression,Can I request minimal packaging for my next order?,neutral,negative,REVIEW AND EXPLAIN THIS ERROR
+E0078,sentiment,TF-IDF + Logistic Regression,The app is simple to navigate and the search filters actually work.,positive,negative,REVIEW AND EXPLAIN THIS ERROR
+E0083,sentiment,TF-IDF + Logistic Regression,Can I save more than one address on the website?,neutral,positive,REVIEW AND EXPLAIN THIS ERROR
+E0090,sentiment,TF-IDF + Logistic Regression,The payment went through on the first try and the receipt arrived instantly.,positive,negative,REVIEW AND EXPLAIN THIS ERROR
+E0091,sentiment,TF-IDF + Logistic Regression,UPI checkout was secure and surprisingly quick.,positive,negative,REVIEW AND EXPLAIN THIS ERROR
+E0092,sentiment,TF-IDF + Logistic Regression,I could pay with my preferred wallet without extra charges.,positive,negative,REVIEW AND EXPLAIN THIS ERROR
+E0094,sentiment,TF-IDF + Logistic Regression,Do you accept international debit cards for payment?,neutral,positive,REVIEW AND EXPLAIN THIS ERROR
+E0095,sentiment,TF-IDF + Logistic Regression,Can an order be split across two payment methods?,neutral,negative,REVIEW AND EXPLAIN THIS ERROR
+E0100,sentiment,TF-IDF + Logistic Regression,It is almost impossible to arrange an exchange through your returns page.,negative,positive,REVIEW AND EXPLAIN THIS ERROR
+E0001,sentiment,MiniLM embeddings + Logistic Regression,"The shoes are lovely, but my parcel showed up five days after the promised delivery window.",negative,positive,REVIEW AND EXPLAIN THIS ERROR
+E0002,sentiment,MiniLM embeddings + Logistic Regression,Tracking said delivered even though nothing was at my door. I spent hours contacting the courier.,negative,positive,REVIEW AND EXPLAIN THIS ERROR
+E0004,sentiment,MiniLM embeddings + Logistic Regression,"The books were fine, yet the courier left the package out in the rain without telling me.",negative,positive,REVIEW AND EXPLAIN THIS ERROR
+E0005,sentiment,MiniLM embeddings + Logistic Regression,I paid for express shipping and it took longer than the free option. Really disappointing.,negative,positive,REVIEW AND EXPLAIN THIS ERROR
+E0007,sentiment,MiniLM embeddings + Logistic Regression,Tracking updates were accurate all the way from dispatch to my doorstep.,positive,negative,REVIEW AND EXPLAIN THIS ERROR
+E0014,sentiment,MiniLM embeddings + Logistic Regression,"Shipping was quick, but the blender motor started rattling after a single use.",negative,positive,REVIEW AND EXPLAIN THIS ERROR
+E0015,sentiment,MiniLM embeddings + Logistic Regression,The stitching on the jacket came apart almost immediately. This is not acceptable quality.,negative,positive,REVIEW AND EXPLAIN THIS ERROR
+E0016,sentiment,MiniLM embeddings + Logistic Regression,My new speaker makes a buzzing sound even at low volume.,negative,positive,REVIEW AND EXPLAIN THIS ERROR
+E0020,sentiment,MiniLM embeddings + Logistic Regression,"After three months of daily use, the kettle still works perfectly.",positive,negative,REVIEW AND EXPLAIN THIS ERROR
+E0022,sentiment,MiniLM embeddings + Logistic Regression,Does this bottle contain any BPA in the plastic parts?,neutral,negative,REVIEW AND EXPLAIN THIS ERROR
+E0025,sentiment,MiniLM embeddings + Logistic Regression,The checkout total was higher than the price advertised on the product page.,negative,positive,REVIEW AND EXPLAIN THIS ERROR
+E0028,sentiment,MiniLM embeddings + Logistic Regression,Prices jumped overnight with no clear explanation. I will probably shop elsewhere.,negative,positive,REVIEW AND EXPLAIN THIS ERROR
+E0040,sentiment,MiniLM embeddings + Logistic Regression,Please process my refund rather than sending another automated acknowledgement.,negative,positive,REVIEW AND EXPLAIN THIS ERROR
+E0042,sentiment,MiniLM embeddings + Logistic Regression,Money was back on my card two days after the cancellation.,positive,negative,REVIEW AND EXPLAIN THIS ERROR
+E0046,sentiment,MiniLM embeddings + Logistic Regression,"After cancellation, which account receives the refund?",neutral,negative,REVIEW AND EXPLAIN THIS ERROR
+E0048,sentiment,MiniLM embeddings + Logistic Regression,Can I request store credit instead of a refund to my card?,neutral,negative,REVIEW AND EXPLAIN THIS ERROR
+E0051,sentiment,MiniLM embeddings + Logistic Regression,Every email gets the same copy-paste reply; I still need actual help.,negative,positive,REVIEW AND EXPLAIN THIS ERROR
+E0063,sentiment,MiniLM embeddings + Logistic Regression,"The product works, but the outer packaging was crushed and soaked.",negative,positive,REVIEW AND EXPLAIN THIS ERROR
+E0078,sentiment,MiniLM embeddings + Logistic Regression,The app is simple to navigate and the search filters actually work.,positive,neutral,REVIEW AND EXPLAIN THIS ERROR
+E0083,sentiment,MiniLM embeddings + Logistic Regression,Can I save more than one address on the website?,neutral,negative,REVIEW AND EXPLAIN THIS ERROR
+E0092,sentiment,MiniLM embeddings + Logistic Regression,I could pay with my preferred wallet without extra charges.,positive,negative,REVIEW AND EXPLAIN THIS ERROR
+E0094,sentiment,MiniLM embeddings + Logistic Regression,Do you accept international debit cards for payment?,neutral,negative,REVIEW AND EXPLAIN THIS ERROR
+E0095,sentiment,MiniLM embeddings + Logistic Regression,Can an order be split across two payment methods?,neutral,negative,REVIEW AND EXPLAIN THIS ERROR
+E0097,sentiment,MiniLM embeddings + Logistic Regression,My return pickup has been cancelled twice without anyone contacting me.,negative,positive,REVIEW AND EXPLAIN THIS ERROR
+E0099,sentiment,MiniLM embeddings + Logistic Regression,"I sent back the wrong-size trousers, but the return was rejected for no reason.",negative,positive,REVIEW AND EXPLAIN THIS ERROR
+E0100,sentiment,MiniLM embeddings + Logistic Regression,It is almost impossible to arrange an exchange through your returns page.,negative,neutral,REVIEW AND EXPLAIN THIS ERROR
