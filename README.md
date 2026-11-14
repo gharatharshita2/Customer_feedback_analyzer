@@ -57,10 +57,26 @@ LLM summaries require a Groq API key configured securely through Streamlit secre
 
 ## Dataset and Evaluation
 
-The project uses synthetic customer feedback for demonstration. Two classification approaches—TF-IDF and MiniLM embeddings—are compared using a separate evaluation dataset.
+## Dataset and Evaluation
 
-Performance is measured using accuracy, macro F1 scores, and confusion matrices.
+The project uses synthetic customer feedback and was evaluated using **100 human-verified samples**.
 
-## Limitations
+### Evaluation Results
 
-The application is designed as an MVP. Classification accuracy may vary on real customer feedback, and emerging issues or urgent complaints may require manual review.
+| Model | Topic Accuracy | Sentiment Accuracy |
+|---|---|---|
+| TF-IDF + Logistic Regression | 51% | 63% |
+| MiniLM + Logistic Regression | 85% | 74% |
+
+MiniLM achieved better performance and is the recommended approach for further production validation.
+
+### Documentation
+
+- [Evaluation Results](outputs/evaluation_results.json)
+- [Five Analysed Mistakes](docs/MODEL_FAILURE_ANALYSIS.md)
+- [Shipping Decision](docs/SHIP_DECISION.md)
+
+## Project Walkthrough
+
+**Video:** [Recording Link](https://drive.google.com/file/d/1ZaT0az4tgM3KfANPs7Ssbj1FBWaQOIMk/view?usp=sharing)
+
