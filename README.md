@@ -1,82 +1,18 @@
 # Customer Feedback Insights Analyzer
 
-An AI-powered web application that helps businesses analyse customer reviews and support messages, identify common complaints, and understand customer sentiment.
+**Turn customer reviews and support messages into clear, traceable business insights.**
 
-The application uses Machine Learning and Large Language Models (LLMs) to turn customer feedback into useful insights through an interactive dashboard.
+Customer Feedback Insights Analyzer is a Streamlit application that cleans uploaded feedback, identifies common topics and sentiment, highlights urgent complaints, discovers recurring patterns, and generates weekly AI summaries with links to original customer messages.
 
-**Live Demo:** [Try the Application](https://customerfeedbackanalyzer-ai.streamlit.app/)
-
-## Features
-
-- **CSV Upload:** Upload customer reviews or support messages for analysis.
-- **Topic Classification:** Categorizes feedback into 10 business-related topics.
-- **Sentiment Analysis:** Identifies positive, negative, and neutral feedback.
-- **Urgent Issue Detection:** Flags potentially serious customer complaints.
-- **Mixed Feedback Analysis:** Handles reviews containing both positive and negative experiences.
-- **Emerging Issues:** Groups feedback that may represent new problems.
-- **AI Weekly Summaries:** Generates summaries using an LLM, supported by original customer quotes.
-- **Model Evaluation:** Compares traditional ML and embedding-based models using accuracy, F1 scores, and confusion matrices.
-
-## Tech Stack
-
-| Technology | Purpose |
+| Capability | What users see |
 |---|---|
-| Python, Pandas | Data processing |
-| Streamlit, Plotly | Dashboard and visualizations |
-| Scikit-learn | Machine learning |
-| TF-IDF, MiniLM | Text classification approaches |
-| Logistic Regression | Topic and sentiment prediction |
-| K-Means | Issue clustering |
-| Groq API | LLM-powered summaries |
-
-## How It Works
-
-1. Upload a CSV file containing customer feedback.
-2. The application cleans and processes the data.
-3. ML models classify feedback by topic and sentiment.
-4. The dashboard displays trends, urgent issues, and possible new problems.
-5. The LLM generates weekly summaries backed by actual customer quotes.
-
-## Running Locally (Optional)
-
-Clone the repository and install the dependencies:
-
-```bash
-pip install -r requirements.txt
-```
-
-Start the application:
-
-```bash
-streamlit run app.py
-```
-
-Open `http://localhost:8501` in your browser.
-
-LLM summaries require a Groq API key configured securely through Streamlit secrets.
-
-## Dataset and Evaluation
-
-## Dataset and Evaluation
-
-The project uses synthetic customer feedback and was evaluated using **100 human-verified samples**.
-
-### Evaluation Results
-
-| Model | Topic Accuracy | Sentiment Accuracy |
-|---|---|---|
-| TF-IDF + Logistic Regression | 51% | 63% |
-| MiniLM + Logistic Regression | 85% | 74% |
-
-MiniLM achieved better performance and is the recommended approach for further production validation.
-
-### Documentation
-
-- [Evaluation Results](outputs/evaluation_results.json)
-- [Five Analysed Mistakes](docs/MODEL_FAILURE_ANALYSIS.md)
-- [Shipping Decision](docs/SHIP_DECISION.md)
-
-## Project Walkthrough
-
-**Video:** [Recording Link](https://drive.google.com/file/d/1ZaT0az4tgM3KfANPs7Ssbj1FBWaQOIMk/view?usp=sharing)
-
+| **CSV intake and cleaning** | Upload reviews, customer-authored support messages or a mixed CSV; view usable rows, duplicates, missing dates and excluded agent/bot replies |
+| **Topic classification** | Ten topics: Delivery, Product Quality, Pricing, Refunds, Customer Support, Packaging, Website/App, Payments, Returns and Other |
+| **Sentiment and urgency** | Positive, neutral or negative predictions; flags for potential safety/legal concerns |
+| **Mixed feedback** | Identifies some reviews praising one aspect while criticising another, with aspect-level explanations |
+| **Business dashboard** | Topic counts, sentiment distribution, weekly trends, filters and exportable review-level predictions |
+| **Emerging issue detection** | Groups repeated, similar negative feedback assigned to Other or an uncertain topic; these are review candidates, not confirmed novel issues |
+| **Weekly AI summaries** | Choose a week and generate complaint insights on demand with Groq; inspect supporting original review IDs and quotes |
+| **Model comparison** | Switch between a TF-IDF baseline and MiniLM sentence embeddings under Advanced settings; compare held-out evaluation results |
+| **Optional language handling** | Flags some Hindi/Devanagari and Hinglish feedback; optional Groq translation before English-trained classification |
+| **Optional image feedback** | Upload one JPG/PNG, request an AI description, review or edit it, then analyse that confirmed description |
