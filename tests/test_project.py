@@ -85,8 +85,8 @@ def test_classic_model_can_train_score():
 
 def test_clustering_returns_real_source_rows():
     data = pd.DataFrame({"id":["A","B","C","D","E","F"],"topic":["Other"]*6,"confidence":[0.3]*6,
-                         "text":["need rewards points", "loyalty points missing", "membership points not showing", "subscription renewal", "monthly membership renewal", "subscription renewal incorrect"],
-                         "raw_text":["need rewards points", "loyalty points missing", "membership points not showing", "subscription renewal", "monthly membership renewal", "subscription renewal incorrect"]})
+                         "text":["loyalty points disappeared today", "loyalty points disappeared again", "my loyalty points disappeared", "subscription renewal failed today", "subscription renewal failed again", "subscription renewal failed twice"],
+                         "raw_text":["loyalty points disappeared today", "loyalty points disappeared again", "my loyalty points disappeared", "subscription renewal failed today", "subscription renewal failed again", "subscription renewal failed twice"], "sentiment":["negative"]*6})
     groups = possible_new_issues(data)
     assert groups
     assert {e['id'] for g in groups for e in g['examples']} <= set(data.id)

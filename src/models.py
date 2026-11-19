@@ -52,23 +52,80 @@ def scores(y_true, y_pred, labels):
         "labels": list(labels),
     }
 
-def possible_new_issues(df: pd.DataFrame, threshold: float = 0.55, max_groups: int = 3) -> list[dict]:
-    """Cluster 'Other' and low-confidence cases; don't present these as facts."""
-    if df.empty or "confidence" not in df or "topic" not in df:
+def possible_new_issues(
+    df: pd.DataFrame,
+    threshold: float = 0.55,
+    max_groups: int = 3,
+    known_variations: tuple[str, ...] = (),
+    min_reports: int = 3,
+    known_issues: tuple[str, ...] = (),
+    similarity_threshold: float = 0.20,
+) -> list[dict]:
+    """Group uncertain negative reports, then label business-confirmed known patterns.
+
+    This is candidate discovery, not proof of novelty. Rules come from the user,
+    and examples remain traceable to original feedback records.
+    """
+    from sklearn.metrics.pairwise import cosine_similarity
+
+    required = {"id", "text", "raw_text", "topic", "confidence", "sentiment"}
+    if df.empty or not required.issubset(df.columns):
         return []
-    uncertain = df.loc[(df["topic"] == "Other") | (df["confidence"] < threshold)].head(300)
-    if len(uncertain) < 3:
+    if not 0 <= threshold <= 1 or min_reports < 2 or max_groups < 1:
+        raise ValueError("Invalid clustering settings")
+
+    candidates = df.loc[
+        df["sentiment"].eq("negative")
+        & (df["topic"].eq("Other") | df["confidence"].lt(threshold))
+    ].copy()
+    approved_variations = [" ".join(rule.casefold().split()) for rule in known_variations if str(rule).strip()]
+    if approved_variations:
+        normalized = candidates["raw_text"].fillna("").astype(str).map(lambda t: " ".join(t.casefold().split()))
+        mask = normalized.map(lambda t: not any(rule in t for rule in approved_variations))
+        candidates = candidates.loc[mask].copy()
+    candidates = candidates.drop_duplicates(subset="id").head(300)
+    if len(candidates) < min_reports:
         return []
+
     try:
-        vectors = TfidfVectorizer(stop_words="english", min_df=1).fit_transform(uncertain["text"].tolist())
+        vectors = TfidfVectorizer(stop_words="english", ngram_range=(1, 2), min_df=1).fit_transform(
+            candidates["text"].fillna("").astype(str)
+        )
     except ValueError:
         return []
-    k = min(max_groups, max(1, len(uncertain)//3))
-    groups = KMeans(n_clusters=k, random_state=42, n_init=10).fit_predict(vectors)
-    result = []
-    for group_id in sorted(set(groups)):
-        members = uncertain.iloc[np.flatnonzero(groups == group_id)]
-        if len(members) < 2:
+    k = min(max_groups, max(1, len(candidates) // min_reports))
+    # Identical TF-IDF feature rows are not distinct cluster centres.
+    # This avoids K-Means warnings on highly templated synthetic examples.
+    unique_vectors = len({
+        (tuple(vectors.getrow(i).indices), tuple(vectors.getrow(i).data.round(6)))
+        for i in range(vectors.shape[0])
+    })
+    k = min(k, unique_vectors)
+    group_labels = KMeans(n_clusters=k, random_state=42, n_init=10).fit_predict(vectors)
+    known_phrases = [" ".join(rule.casefold().split()) for rule in known_issues if str(rule).strip()]
+    results = []
+
+    for label in sorted(set(group_labels)):
+        positions = np.flatnonzero(group_labels == label)
+        n = len(positions)
+        if n < min_reports:
             continue
-        result.append({"group": int(group_id)+1, "count": len(members), "examples": members[["id", "raw_text"]].head(4).to_dict("records")})
-    return sorted(result, key=lambda r: -r["count"])
+        sims = cosine_similarity(vectors[positions])
+        mean_similarity = float((sims.sum() - n) / (n * (n - 1)))
+        if mean_similarity < similarity_threshold:
+            continue
+        members = candidates.iloc[positions]
+        text = [" ".join(str(v).casefold().split()) for v in members["raw_text"].fillna("")]
+        counts = [(phrase, sum(phrase in t for t in text)) for phrase in known_phrases]
+        matched, count = max(counts, key=lambda x: x[1], default=("", 0))
+        is_known = count >= min_reports and count / n >= 0.60
+        results.append({
+            "group": int(label) + 1,
+            "count": n,
+            "examples": members[["id", "raw_text"]].head(4).to_dict("records"),
+            "status": "Known recurring issue" if is_known else "Possible new issue - needs review",
+            "matched_known_issue": matched if is_known else None,
+            "reason": f"{n} similar negative reports (similarity: {mean_similarity:.2f})",
+            "similarity": round(mean_similarity, 3),
+        })
+    return sorted(results, key=lambda row: -row["count"])

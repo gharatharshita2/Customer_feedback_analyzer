@@ -240,7 +240,9 @@
         "Payments",
         "Returns",
         "Other"
-      ]
+      ],
+      "training_seconds": 0.075,
+      "prediction_seconds": 0.004
     },
     "topic | MiniLM embeddings + Logistic Regression": {
       "accuracy": 0.85,
@@ -378,7 +380,9 @@
         "Payments",
         "Returns",
         "Other"
-      ]
+      ],
+      "training_seconds": 26.957,
+      "prediction_seconds": 0.346
     },
     "sentiment | TF-IDF + Logistic Regression": {
       "accuracy": 0.63,
@@ -404,7 +408,9 @@
         "negative",
         "neutral",
         "positive"
-      ]
+      ],
+      "training_seconds": 0.057,
+      "prediction_seconds": 0.003
     },
     "sentiment | MiniLM embeddings + Logistic Regression": {
       "accuracy": 0.74,
@@ -430,7 +436,9 @@
         "negative",
         "neutral",
         "positive"
-      ]
+      ],
+      "training_seconds": 5.871,
+      "prediction_seconds": 0.335
     }
   }
 }

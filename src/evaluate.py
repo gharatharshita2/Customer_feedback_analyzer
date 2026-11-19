@@ -2,6 +2,7 @@
 from __future__ import annotations
 import argparse
 import json
+import time
 from pathlib import Path
 import pandas as pd
 from .core import TOPICS, SENTIMENTS, clean_reviews, load_csv
@@ -49,10 +50,17 @@ def evaluate_models(train_path, eval_path, output_dir, *, embeddings: bool = Tru
     error_candidates = []
     for task, labels in [("topic", TOPICS), ("sentiment", SENTIMENTS)]:
         for name, constructor in names:
+            start_fit = time.perf_counter()
             model = constructor().fit(train["text"], train[task])
+            training_seconds = time.perf_counter() - start_fit
+            start_predict = time.perf_counter()
             predicted = model.predict(verified["text"])
+            prediction_seconds = time.perf_counter() - start_predict
             key = f"{task} | {name}"
-            all_results["scores"][key] = scores(verified[task], predicted, labels)
+            result = scores(verified[task], predicted, labels)
+            result["training_seconds"] = round(training_seconds, 3)
+            result["prediction_seconds"] = round(prediction_seconds, 3)
+            all_results["scores"][key] = result
             preds = pd.DataFrame({"id": verified["id"], "text": verified["text"], "actual": verified[task], "predicted": predicted, "task": task, "model": name})
             safe_name = f"{task}_{'tfidf' if name.startswith('TF-IDF') else 'minilm'}"
             preds.to_csv(Path(output_dir) / f"predictions_{safe_name}.csv", index=False)

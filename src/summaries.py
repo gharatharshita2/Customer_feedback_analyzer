@@ -6,6 +6,7 @@ have passed validation. A deterministic extractive summary is always available.
 from __future__ import annotations
 import json
 import re
+import time
 from collections import Counter
 import pandas as pd
 import requests
@@ -22,7 +23,10 @@ def issue_groups(df: pd.DataFrame, limit: int = 6, evidence_per_topic: int = 5) 
     """Only actual negative source rows; never positive ones."""
     if df.empty:
         return []
+    # AI-assisted image descriptions are not original customer quotations.
     negative = df.loc[df["sentiment"].eq("negative")]
+    if "is_image_caption" in negative.columns:
+        negative = negative.loc[~negative["is_image_caption"].fillna(False).astype(bool)]
     if negative.empty:
         return []
     ordered = negative["topic"].value_counts().head(limit)
@@ -87,6 +91,29 @@ def validate_generated(proposal: dict, groups: list[dict]) -> tuple[list[dict], 
         output.append(selected.get(g["topic"], extractive_summary([g])[0]))
     return output, len(selected)
 
+def _post_with_retry(*args, **kwargs):
+    """At most two attempts. Retry only rate limits, transient 5xx and timeouts."""
+    for attempt in range(2):
+        try:
+            response = requests.post(*args, **kwargs)
+            if response.status_code in (429, 500, 502, 503, 504) and attempt == 0:
+                # A capped backoff prevents long waits on hosted demos.
+                wait = response.headers.get("Retry-After", "1")
+                try:
+                    seconds = min(2, max(0, float(wait)))
+                except (TypeError, ValueError):
+                    seconds = 1
+                time.sleep(seconds)
+                continue
+            response.raise_for_status()
+            return response
+        except (requests.Timeout, requests.ConnectionError):
+            if attempt == 0:
+                time.sleep(1)
+                continue
+            raise
+
+
 def cloud_llm_summary(groups: list[dict], *, api_key: str, model: str = "openai/gpt-oss-20b", timeout: int = 45) -> tuple[list[dict], int]:
     """Generate source-linked summaries using a hosted LLM, never a local service.
 
@@ -109,7 +136,7 @@ def cloud_llm_summary(groups: list[dict], *, api_key: str, model: str = "openai/
         "SOURCE RECORDS:\n" + json.dumps(source, ensure_ascii=False)
     )
     try:
-        response = requests.post(
+        response = _post_with_retry(
             "https://api.groq.com/openai/v1/chat/completions",
             headers={"Authorization": f"Bearer {api_key}", "Content-Type": "application/json"},
             json={

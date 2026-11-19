@@ -99,23 +99,3 @@ E0097,2026-10-09,My return pickup has been cancelled twice without anyone contac
 E0098,2026-10-12,The return portal rejects my order number although the item is eligible.,Returns,negative,yes
 E0099,2026-10-15,"I sent back the wrong-size trousers, but the return was rejected for no reason.",Returns,negative,yes
 E0100,2026-10-18,It is almost impossible to arrange an exchange through your returns page.,Returns,negative,yes
-E0101,2026-09-01,The replacement request is stuck because nobody will book the collection.,Returns,negative,no
-E0102,2026-09-04,Returning the shoes was easy and the courier collected them the next morning.,Returns,positive,no
-E0103,2026-09-07,The exchange for a different size was handled with no fuss.,Returns,positive,no
-E0104,2026-09-10,I appreciated the clear return instructions and prepaid label.,Returns,positive,no
-E0105,2026-09-13,The return pickup was punctual and the process was hassle-free.,Returns,positive,no
-E0106,2026-09-16,How many days do I have to return unopened accessories?,Returns,neutral,no
-E0107,2026-09-19,Is a return pickup available outside major cities?,Returns,neutral,no
-E0108,2026-09-22,May I exchange a gift without the original receipt?,Returns,neutral,no
-E0109,2026-09-25,Loyalty points from three purchases have disappeared from my account.,Other,negative,no
-E0110,2026-09-28,The rewards membership renewed automatically even though I had cancelled it.,Other,negative,no
-E0111,2026-10-01,I keep receiving promotional messages after opting out of the mailing list.,Other,negative,no
-E0112,2026-10-04,My subscription benefits vanished even though this month's fee was paid.,Other,negative,no
-E0113,2026-10-07,The store keeps advertising a membership perk that I cannot access.,Other,negative,no
-E0114,2026-10-10,The loyalty rewards are useful and the points are easy to redeem.,Other,positive,no
-E0115,2026-10-13,I love the early access perks from the membership programme.,Other,positive,no
-E0116,2026-10-16,Their monthly newsletter has practical suggestions rather than spam.,Other,positive,no
-E0117,2026-10-19,Renewing my subscription was simple and the added benefits are great.,Other,positive,no
-E0118,2026-09-02,When do loyalty reward points expire?,Other,neutral,no
-E0119,2026-09-05,Can I pause a paid membership for one month?,Other,neutral,no
-E0120,2026-09-08,Where do I change my marketing email preferences?,Other,neutral,no
